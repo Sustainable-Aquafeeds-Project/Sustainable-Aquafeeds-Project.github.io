@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Sustainable Aquafeeds"
+  navbar: 
+    left:
+      - href: index.qmd
+        text: About
+      - href: about.qmd
+        text: Our research
+      - text: "Study species"
+        menu:
+          - salmonids.qmd
+          - crustaceans.qmd
+      - text: People
+        file: people.qmd
+      - text: Publications 
+        file: publications.qmd
+      - text: Contact us
+        file: contactpage.qmd
+      
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+editor: visual
+

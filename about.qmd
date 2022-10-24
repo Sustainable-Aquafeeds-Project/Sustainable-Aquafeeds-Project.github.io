@@ -1,0 +1,10 @@
+---
+title: "What we do"
+editor: visual
+about: marquee
+image: tigerprawn_CSIRO.jpg
+---
+add a blurb about research project and aims? the 3 focus areas: experiments, models, mapping?
+---
+
+About this site
