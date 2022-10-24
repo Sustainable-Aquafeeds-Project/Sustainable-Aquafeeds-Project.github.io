@@ -1,4 +1,6 @@
 ---
 title: "crustaceans"
 editor: visual
+about: jolla
+image: prawnfarmingCSIRO.jpg
 ---

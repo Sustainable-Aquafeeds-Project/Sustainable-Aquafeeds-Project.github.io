@@ -10,7 +10,7 @@ website:
       - href: about.qmd
         text: Our research
       - text: "Study species"
-        menu:
+        menu: 
           - salmonids.qmd
           - crustaceans.qmd
       - text: People
@@ -20,7 +20,6 @@ website:
       - text: Contact us
         file: contactpage.qmd
       
-
 format:
   html:
     theme: lux
