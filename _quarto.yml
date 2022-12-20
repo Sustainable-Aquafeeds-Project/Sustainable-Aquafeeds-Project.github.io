@@ -19,6 +19,8 @@ website:
         file: publications.qmd
       - text: Contact us
         file: contactpage.qmd
+      - text: Media and outreach
+        file: news.qmd
       
 format:
   html:
