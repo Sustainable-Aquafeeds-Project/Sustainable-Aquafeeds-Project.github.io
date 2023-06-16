@@ -2,31 +2,40 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Sustainable Aquafeeds"
+  title: "Feed"
+  image: "SAP_website-image.jpg"
+  favicon: "favicon_logo.png"
   navbar: 
-    left:
-      - href: index.qmd
-        text: About
-      - href: about.qmd
-        text: Our research
-      - text: "Study species"
-        menu: 
-          - salmonids.qmd
-          - crustaceans.qmd
+    logo: "SAP_website-image.jpg"
+    logo-alt: "SAP"
+    collapse-below: lg
+    right:
+      #   text: ""
+      # - href: index.qmd
+      - text: About
+        href: about.qmd
+      # - text: "Study species"
+      #   menu: 
+      #     - salmonids.qmd
+      #     - crustaceans.qmd
       - text: People
-        file: people.qmd
-      - text: Publications 
-        file: publications.qmd
-      - text: Contact us
-        file: contactpage.qmd
-      - text: Media and outreach
-        file: news.qmd
+        href: people.qmd
+      - text: Outputs 
+        href: publications.qmd
+      # - text: Contact us
+      #   file: contactpage.qmd
+      - text: News
+        href: news.qmd
+      - icon: github
+        href: https://sustainable-aquafeeds-project.github.io/
       
 format:
   html:
-    theme: lux
+    theme: 
+      light: lux
     css: styles.css
     toc: true
+
 
 editor: visual
 
