@@ -2,7 +2,13 @@
 title: "What we do"
 editor: visual
 about: marquee
-image: tigerprawn_CSIRO.jpg
+image: Tigerprawn_CSIRO.jpg
 ---
 
-## add a blurb about research project and aims? the 3 focus areas: experiments, models, mapping?
+Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
+
+1\) Spatial mapping of global environmental pressures and impacts
+
+2\) Predictive modelling of local ecosystem impacts
+
+3\) Future scenario projections to assess trade-offs across sustainable development goals
