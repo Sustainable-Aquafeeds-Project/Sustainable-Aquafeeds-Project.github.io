@@ -1,6 +1,9 @@
-/* css styles */
+/*-- navbar --*/
 .navbar-logo {
-  max-height: 150px;
+  max-height: 100px;
   width: auto;
   align-items: baseline;
+}
+.navbar {
+  font-size: 1.5em;
 }

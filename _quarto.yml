@@ -8,7 +8,6 @@ website:
   navbar: 
     logo: "SAP_website-image.jpg"
     logo-alt: "SAP"
-    width: 200px
     collapse-below: lg
     right:
       #   text: ""
