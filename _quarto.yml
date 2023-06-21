@@ -3,10 +3,10 @@ project:
   output-dir: docs
 website:
   title: "Feed"
-  image: "SAP_website-image.jpg"
+  image: "SAP_website-image_TRANSPARENT.png"
   favicon: "favicon_logo.png"
   navbar: 
-    logo: "SAP_website-image.jpg"
+    logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
     right:

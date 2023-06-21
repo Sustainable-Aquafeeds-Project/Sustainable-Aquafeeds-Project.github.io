@@ -2,7 +2,7 @@
 title: "What we do"
 editor: visual
 about: marquee
-image: Tigerprawn_CSIRO.jpg
+image: shutterstock_fishpens_dark.jpg
 ---
 
 Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
