@@ -1,11 +1,12 @@
 ---
 title: "What we do"
 editor: visual
-about:
-  template: marquee
-  image: shutterstock_fishpens_dark.jpg
-  image-width: 50em
+about: marquee
 ---
+
+::: column-screen
+![© Rich Cottrell](linkageprojectimage.png){fig-align="center"}
+:::
 
 Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
 

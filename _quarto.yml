@@ -9,7 +9,7 @@ website:
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
-    right:
+    left:
       #   text: ""
       # - href: index.qmd
       - text: About

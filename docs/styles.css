@@ -4,3 +4,9 @@
   width: auto;
   align-items: baseline;
 }
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1em;
+}
