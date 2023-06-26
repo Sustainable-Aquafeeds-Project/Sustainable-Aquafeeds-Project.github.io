@@ -20,7 +20,7 @@ website:
       #     - crustaceans.qmd
       - text: Our team
         href: people.qmd
-      - text: Outputs 
+      - text: Our research 
         href: publications.qmd
       # - text: Contact us
       #   file: contactpage.qmd
