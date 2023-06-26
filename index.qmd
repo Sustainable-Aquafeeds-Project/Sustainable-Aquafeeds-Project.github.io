@@ -4,7 +4,7 @@ about: marquee
 ---
 
 ::: {#shutterstock .column-screen}
-![Shutterstock](shutterstock_1421198966.jpg){fig-align="center"}
+![Shutterstock](banner.jpg){fig-align="center"}
 :::
 
 ## NEW TOOLS TO SUPPORT ENVIRONMENTALLY SUSTAINABLE AQUAFEEDS
