@@ -9,7 +9,7 @@ website:
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
-    left:
+    right:
       #   text: ""
       # - href: index.qmd
       - text: About
@@ -27,7 +27,7 @@ website:
       - text: News
         href: news.qmd
       - icon: github
-        href: https://sustainable-aquafeeds-project.github.io/
+        href: https://github.com/Sustainable-Aquafeeds-Project
       
 format:
   html:

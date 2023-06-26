@@ -1,5 +1,5 @@
 ---
-title: "Our Approach"
+title: ""
 editor: visual
 about: marquee
 ---
