@@ -1,12 +1,9 @@
-/*-- navbar --*/
-.navbar-logo {
-  max-height: 75px;
-  width: auto;
-  align-items: baseline;
-}
 
-.navbar {
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 1em;
+/*-- main content --*/
+margin-top: -1px
+body.nav-fixed {
+  padding-top: auto;
+}
+#quarto-content>* {
+  padding-top: auto;
 }

@@ -5,13 +5,14 @@ website:
   #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
   favicon: "favicon_logo.png"
+  sidebar: false
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
     right:
-      #   text: ""
-      # - href: index.qmd
+      - text: "Home"
+        href: index.qmd #change padding b/w navbar and image
       - text: Our approach
         href: about.qmd
       # - text: "Study species"
@@ -28,13 +29,20 @@ website:
         href: news.qmd
       - icon: github
         href: https://github.com/Sustainable-Aquafeeds-Project
-      
+        
+  page-footer:
+      background: "#094867"
+      center:
+      - text: Contact us
+        
+
+  #  right: |
+   #   [Terms & Conditions](/ts-and-cs.qmd)    
 format:
   html:
-    theme: 
-      light: lux
+    theme: [lux,custom.scss]
     css: styles.css
-    toc: true
+    
 
 editor: visual
 

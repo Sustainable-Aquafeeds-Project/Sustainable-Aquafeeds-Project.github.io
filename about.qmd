@@ -1,14 +1,15 @@
 ---
-title: ""
 editor: visual
 about: marquee
 ---
 
-::: column-screen
-![© Rich Cottrell](linkageprojectimage.png){fig-align="center"}
-:::
+<div>
 
-# Our approach
+![](linkageprojectimage.png){fig-align="center"}
+
+</div>
+
+#                              Our approach
 
 Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
 
@@ -22,4 +23,4 @@ Even at a local scale, there is limited information on how changes in feed ingre
 
 ### 3) Future scenario projections to assess trade-offs across sustainable development goals
 
-Aquaculture's growth in future relies on the supply of different marine and terrestrial feed resources and suitable environment to grow target species. Like other food sectors, supply faces numerous risks such as climate and global change. We are examining short-term shocks and long-term risks facing aquaculture, and how these might be minimised through alternatives feed ingredients and development.
+Aquaculture's growth in future relies on the supply of different marine and terrestrial feed resources and suitable environment to grow target species. Like other food sectors, supply faces numerous risks such as climate and global change. We are examining short-term shocks and long-term risks facing aquaculture, and how these might be minimised through alternatives feed ingredients and development
