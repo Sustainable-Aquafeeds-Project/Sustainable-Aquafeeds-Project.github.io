@@ -32,7 +32,7 @@ website:
 format:
   html:
     theme: 
-      light: lux
+      light: cosmo
     css: styles.css
     toc: true
 
