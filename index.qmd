@@ -7,10 +7,16 @@ about: marquee
 ![Shutterstock](banner.jpg){fig-align="center"}
 :::
 
-## NEW TOOLS TO SUPPORT ENVIRONMENTALLY SUSTAINABLE AQUAFEEDS
+# New tools to support environmentally sustainable aquafeeds
 
-Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Fed aquaculture currently relies on a large variety of feed ingredients (such as crops, fishmeal and oil, insects, microalgae sourced around the world) and the balance of these is rapidly changing.
+Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing aquafeeds in aquaculture.
 
-While innovations have led to more environmentally efficient aquaculture overall, the choice of feed ingredients can still massively affect both the environmental impacts associated with aquaculture.
+## Why are aquafeeds important?
 
-Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing feeds in aquaculture by developing integrative models and experiments at both local and global scales.
+-   Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security.
+
+-   Fed aquaculture currently relies on a large variety of feed ingredients (such as crops, fishmeal and oil, insects, microalgae sourced around the world) and the balance of these is rapidly changing.
+
+-   While some innovations have led to more environmentally efficient aquaculture overall, the choice of feed ingredients can still massively affect the environmental pressures associated with aquaculture.
+
+-   We are working towards more holistic uncerstanding of multiple pressures (such as water extraction, GHG emissions, nutrient pollution, habitat disturbance) translate into impacts (biodiversity, ecosystem function) - at both global and local scales.
