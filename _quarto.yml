@@ -12,13 +12,13 @@ website:
     right:
       #   text: ""
       # - href: index.qmd
-      - text: About
+      - text: Our approach
         href: about.qmd
       # - text: "Study species"
       #   menu: 
       #     - salmonids.qmd
       #     - crustaceans.qmd
-      - text: People
+      - text: Our team
         href: people.qmd
       - text: Outputs 
         href: publications.qmd
