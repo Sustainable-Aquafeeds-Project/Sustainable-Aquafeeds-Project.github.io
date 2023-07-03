@@ -34,7 +34,7 @@ website:
       background: "#094867"
       center:
       - text: Contact us
-        
+        href: mailto:sowdamini.sp@gmail.com
 
   #  right: |
    #   [Terms & Conditions](/ts-and-cs.qmd)    

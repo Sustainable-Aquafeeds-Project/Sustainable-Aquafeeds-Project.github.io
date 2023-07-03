@@ -4,8 +4,8 @@ about: marquee
 sidebar: false
 ---
 
-::: column-screen
-![Shutterstock](banner.jpg){fig-align="center"}
+::: {#shutterstock .column-screen}
+![](banner.jpg){fig-align="center"}
 :::
 
 ## **New tools to support environmentally sustainable aquafeeds**
