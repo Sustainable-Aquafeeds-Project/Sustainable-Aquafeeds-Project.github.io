@@ -40,7 +40,7 @@ website:
    #   [Terms & Conditions](/ts-and-cs.qmd)    
 format:
   html:
-    theme: [lux,custom.scss]
+    theme: [custom.scss]
     css: styles.css
     
 
