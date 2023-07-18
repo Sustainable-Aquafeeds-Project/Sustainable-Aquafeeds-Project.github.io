@@ -17,6 +17,11 @@ Our project aims to develop a new interdisciplinary sustainability assessment fr
 
 Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Fed aquaculture currently relies on a large variety of feed ingredients (such as crops, fishmeal and oil, insects, microalgae sourced around the world) and the balance of these is rapidly changing. While some innovations have led to more environmentally efficient aquaculture overall, the choice of feed ingredients can still massively affect the environmental pressures associated with aquaculture. We are working towards more holistic uncerstanding of multiple pressures (such as water extraction, GHG emissions, nutrient pollution, habitat disturbance) translate into impacts (biodiversity, ecosystem function) - at both global and local scales.
 
+![](images/feed-throw.jpg)
+
+:::
+
+
 ## OUR PARTNERS
 
 ::: {layout-ncol="3"}
