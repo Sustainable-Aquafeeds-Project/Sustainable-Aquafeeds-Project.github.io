@@ -23,9 +23,11 @@ Aquaculture currently produces over half of all fish consumed by humans and is a
 
 ## **What are aquafeeds made from?**
 
-::: {layout-ncol = "2"}
-![](images/soy.jpg){fig-align="left}
-![](images/foragefish.jpg){fig-align="right}
+::: {layout-ncol="2"}
+
+![](images/soy.jpg)
+
+![](images/foragefish.jpg)
 :::
 
 
