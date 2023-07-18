@@ -23,16 +23,16 @@ Aquaculture currently produces over half of all fish consumed by humans and is a
 
 ## **What are aquafeeds made from?**
 
-::: {layout-ncol = "2", layout-row = "2}
+::: {layout-ncol = "2"}
+![](images/soy.jpg){fig-align="left}
+![](images/foragefish.jpg){fig-align="right}
+:::
 
-![](images/soy.jpg)
-![](images/foragefish.jpg)
 
 Aquafeeds are manufactured using a spectrum of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed changes is lacking. 
 
 We are working towards a more holistic understanding of environmental pressures (greenhouse gas emissions, water extraction, nutrient pollution, habitat disturbance) from feed production and how these translate to impacts (e.g. biodiversity, ecosystem function) at local and global scales.
 
-:::
 
 ## OUR PARTNERS
 
