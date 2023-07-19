@@ -3,15 +3,19 @@ editor: visual
 about: marquee
 ---
 
-<div>
 
-![](linkageprojectimage.png){fig-align="center"}
-
-</div>
-
-#                              Our approach
+# Our approach
 
 Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
+
+::: {layout-ncol="3"}
+
+![](images/globe.jpg)
+
+![](images/aquapens_pollution.jpg)
+
+![](images/feed_sdgs.jpg)
+:::
 
 ### 1) Spatial mapping of global environmental pressures and impacts
 
