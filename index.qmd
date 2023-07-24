@@ -6,7 +6,7 @@ page-layout: article
 ---
 
 ::: {#shutterstock .column-screen}
-![](banner.jpg){fig-align="center"}
+![](images/banner.jpg){fig-align="center"}
 :::
 
 ## **New tools to support environmentally sustainable aquaculture feeds**
@@ -18,15 +18,15 @@ Our project aims to develop a new interdisciplinary sustainability assessment fr
 ::: {layout-ncol="2"}
 Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which typically embed the majority of the environmental impacts in the life-cycle of farmed fish. Aquafeeds therefore present a key lever for improving the sustainability of the aquaculture sector.
 
-![](images/feed-throw.jpg){fig-align="right"}
+![](images/feed-throw_small.jpg){fig-align="right"}
 :::
 
 ## **What are aquafeeds made from?**
 
 ::: {layout-ncol="2"}
-![](images/soy.jpg)
+![](images/soy_small.jpg)
 
-![](images/foragefish.jpg)
+![](images/foragefish_small.jpg)
 :::
 
 Aquafeeds are manufactured using a spectrum of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed changes is lacking.
