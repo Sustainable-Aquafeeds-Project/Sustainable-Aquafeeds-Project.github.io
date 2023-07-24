@@ -16,7 +16,7 @@ Our project aims to develop a new interdisciplinary sustainability assessment fr
 ## **Why are aquafeeds important?**
 
 ::: {layout-ncol="2"}
-Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which typically embed the majority of the environmental impacts in the life-cycle of farmed fish. Aquafeeds therefore present a key lever for improving the sustainability of the aquaculture sector.
+Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which can account for the majority of environmental impacts in the life-cycle of farmed fish. Aquafeeds thus present a key lever for improving the sustainability of the aquaculture sector.
 
 ![](images/feed-throw_small.jpg){fig-align="right"}
 :::
@@ -29,7 +29,7 @@ Aquaculture currently produces over half of all fish consumed by humans and is a
 ![](images/foragefish_small.jpg)
 :::
 
-Aquafeeds are manufactured using a spectrum of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed changes is lacking.
+Aquafeeds are manufactured using a large range of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues to evolve as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed composition changes is lacking.
 
 We are working towards a more holistic understanding of environmental pressures (greenhouse gas emissions, water extraction, nutrient pollution, habitat disturbance) from feed production and how these translate to impacts (e.g. biodiversity, ecosystem function) at local and global scales.
 
