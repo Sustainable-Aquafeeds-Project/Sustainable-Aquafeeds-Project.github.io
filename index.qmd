@@ -9,7 +9,7 @@ page-layout: article
 ![](images/banner.jpg){fig-align="center"}
 :::
 
-## **New tools to support environmentally sustainable aquaculture feeds**
+## **New tools to optimise feeds in support of ecosystem-based aquaculture**
 
 Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing raw materials used in aquaculture feeds.
 
