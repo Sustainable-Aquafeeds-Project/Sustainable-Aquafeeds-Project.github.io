@@ -2,25 +2,36 @@
 editor: visual
 about: marquee
 sidebar: false
+page-layout: article
 ---
 
 ::: {#shutterstock .column-screen}
-![](banner.jpg){fig-align="center"}
+![](images/banner.jpg){fig-align="center"}
 :::
 
-## **New tools to support environmentally sustainable aquafeeds**
+## **New tools to optimise feeds in support of ecosystem-based aquaculture**
 
-Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing aquafeeds in aquaculture.
+Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing raw materials used in aquaculture feeds.
 
 ## **Why are aquafeeds important?**
 
--   Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security.
+::: {layout-ncol="2"}
+Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which can account for the majority of environmental impacts in the life-cycle of farmed fish. Aquafeeds thus present a key lever for improving the sustainability of the aquaculture sector.
 
--   Fed aquaculture currently relies on a large variety of feed ingredients (such as crops, fishmeal and oil, insects, microalgae sourced around the world) and the balance of these is rapidly changing.
+![](images/feed-throw_small.jpg){fig-align="right"}
+:::
 
--   While some innovations have led to more environmentally efficient aquaculture overall, the choice of feed ingredients can still massively affect the environmental pressures associated with aquaculture.
+## **What are aquafeeds made from?**
 
--   We are working towards more holistic uncerstanding of multiple pressures (such as water extraction, GHG emissions, nutrient pollution, habitat disturbance) translate into impacts (biodiversity, ecosystem function) - at both global and local scales.
+::: {layout-ncol="2"}
+![](images/soy_small.jpg)
+
+![](images/foragefish_small.jpg)
+:::
+
+Aquafeeds are manufactured using a large range of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues to evolve as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed composition changes is lacking.
+
+We are working towards a more holistic understanding of environmental pressures (greenhouse gas emissions, water extraction, nutrient pollution, habitat disturbance) from feed production and how these translate to impacts (e.g. biodiversity, ecosystem function) at local and global scales.
 
 ## OUR PARTNERS
 

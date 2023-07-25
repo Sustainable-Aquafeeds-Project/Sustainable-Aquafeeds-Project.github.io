@@ -1,17 +1,28 @@
 ---
-title: "Media and outreach"
+title: ""
 editor: visual
 about: marquee
 ---
 
-**Workshops:**
+### Sustainable Aquafeeds Project at AMSA 2023
 
-We recently hosted our industry partners Biomar Norway in Hobart for a very successful 3 day workshop.
+::: {layout-ncol="2"}
+![](images/sowds-pres-AMSA.jpg)
 
-**3 key points**
+![](images/seafood-panel-AMSA.jpg)
+:::
 
-**Conferences:**
+Project co-lead Rich Cottrell and PhD Candidate Sowdamini Sesha Prasad attended the Australian Marine Science Association conference in the Gold Coat in July '23. Sowdamini presented her geometric stoichiometry modelling framework for understanding how changing raw materials and ingredients in aquafeeds can result in shifts in teh nature of waste in and around fish farms. Rich presented work in preparation on how raw material origins can be as important as feed composition for the environmental footprint of aquaculture feeds, and co-led a session on 'The Future of Sustainsable Seafood in Australia'
 
-Our postdoc (insert link to Rich Cottrell's profile) and PhD student (SSP link) presented their work at the World Aquaculture Society conference in Singapore in Nov 2022.
+### Sustainable Aquafeeds in Singapore!
 
-*insert photos and small blurb on each presentations*
+::: {layout-ncol="2"}
+At the end of our first full year of the Sustainable Aquafeeds Project, PhD Candidate Sowdamini Sesha Prasad and project co-lead Rich Cottrell travelled to Singapore in December 2022 to present their research on local to global aquafeeds sustainability assessment at the World Aquaculture Society conference. Great science, networking, and fun had by all (with the exception of bizarre student mixer!) - and Sowdamini's first international conference presentation. Well done, Sowdamini!
+
+![](images/rich-sowds_WAS.jpg)
+:::
+
+
+:::{layout-ncol=1}
+![](images/sowdamini_pres_WAS.jpg)
+:::
