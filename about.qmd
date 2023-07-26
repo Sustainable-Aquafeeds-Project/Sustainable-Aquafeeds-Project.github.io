@@ -13,7 +13,7 @@ Our project is advancing three research areas to create a new sustainable aquacu
 
 ::: {layout-ncol="2"}
 
-![](images/globe.jpg)
+![](images/feed_footprint_global.jpg){width="500"}
 
 Raw materials used in aquafeeds are sourced from fisheries and agriculture systems globally. Geographical differences in how raw materials are produced and processed can drive substantial changes to the environmental footprint of aquafeeds. By mapping the cumulative pressures associated with different feed scenarios -  we can provide detailed information on how various ingredient combinations used by our partners could optimise the carbon, water, nutrient, and biodiversity footprints of aquafeeds.
 
