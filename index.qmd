@@ -1,12 +1,11 @@
 ---
 editor: visual
-about: marquee
 sidebar: false
-page-layout: article
+page-layout: full
 ---
 
 ::: {#shutterstock .column-screen}
-![](images/banner.jpg){fig-align="center"}
+![](images/banner-lowres.jpg){fig-align="center"}
 :::
 
 ## **New tools to optimise feeds in support of ecosystem-based aquaculture**

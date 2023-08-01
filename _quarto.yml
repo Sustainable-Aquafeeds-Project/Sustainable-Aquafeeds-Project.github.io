@@ -10,6 +10,7 @@ website:
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
+    pinned: true
     right:
       - text: "Home"
         href: index.qmd #change padding b/w navbar and image
@@ -40,7 +41,7 @@ website:
    #   [Terms & Conditions](/ts-and-cs.qmd)    
 format:
   html:
-    theme: [custom.scss]
+    theme: [lux,custom.scss]
     css: styles.css
     
 

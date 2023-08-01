@@ -22,7 +22,6 @@ At the end of our first full year of the Sustainable Aquafeeds Project, PhD Cand
 ![](images/rich-sowds_WAS.jpg)
 :::
 
-
-:::{layout-ncol=1}
+::: {layout-ncol="1"}
 ![](images/sowdamini_pres_WAS.jpg)
 :::
