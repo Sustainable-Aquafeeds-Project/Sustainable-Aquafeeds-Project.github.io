@@ -67,7 +67,7 @@ $headings-color:              $gray-900 !default;
 
 // Tables
 
-$table-border-color:          rgba(0, 0, 0, .05) !default;
+$table-border-color:          rgba(0, 0, 0, .01) !default;
 
 // Buttons
 
@@ -228,13 +228,13 @@ th {
 .table {
   th,
   td {
-    padding: 0rem;
+    padding: 0.5rem;
   }
 
   &-sm {
     th,
     td {
-      padding: 0rem;
+      padding: 0.5rem;
     }
   }
 }

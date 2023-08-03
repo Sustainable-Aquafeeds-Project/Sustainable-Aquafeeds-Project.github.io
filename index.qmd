@@ -32,12 +32,9 @@ Aquafeeds are manufactured using a large range of ingredients and raw materials,
 
 We are working towards a more holistic understanding of environmental pressures (greenhouse gas emissions, water extraction, nutrient pollution, habitat disturbance) from feed production and how these translate to impacts (e.g. biodiversity, ecosystem function) at local and global scales.
 
-## OUR PARTNERS
+## PROJECT PARTNERS
 
-::: {layout-ncol="3"}
-![](biomar_logo_2023.png){width="200"}
+|                                                      |                                                     |                                                  |                                             |                                    |
+|------------------------|:--------------:|:-----------------------------------|--------------|---------------------------------------|
+| ![](images/logos/UniTas_IMAS_P_Pos_Col_RGB_2021.png) | ![](images/logos/biomar_logo_2023.png){width="182"} | ![](images/logos/manchesteruni.gif){width="371"} | ![](images/logos/UC_Santa_Barbara_Seal.png) | ![](images/logos/cdu_logo_og.jpeg) |
 
-![](manchesteruni.gif){width="408"}
-
-![](UC_Santa_Barbara_Seal.png){width="236"}
-:::
