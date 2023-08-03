@@ -1,8 +1,0 @@
----
-title: "salmonids"
-editor: visual
-about: jolla
-image: TasmanianSalmonFarm_CSIRO.jpg
----
-
-text to see if the page updates when rendered

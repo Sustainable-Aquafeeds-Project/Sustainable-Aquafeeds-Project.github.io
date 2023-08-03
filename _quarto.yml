@@ -22,8 +22,8 @@ website:
       #     - crustaceans.qmd
       - text: Our team
         href: people.qmd
-      - text: Our research 
-        href: publications.qmd
+     # - text: Our research 
+      #  href: publications.qmd
       # - text: Contact us
       #   file: contactpage.qmd
       - text: News
@@ -42,7 +42,7 @@ website:
 format:
   html:
     theme: [lux,custom.scss]
-    #css: styles.css
+   # css: style.css
     
 
 editor: visual
