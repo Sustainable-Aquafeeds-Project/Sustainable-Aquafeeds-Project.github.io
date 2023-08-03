@@ -5,7 +5,6 @@ website:
   #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
   favicon: "favicon_logo.png"
-  sidebar: false
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
@@ -30,12 +29,14 @@ website:
         href: news.qmd
       - icon: github
         href: https://github.com/Sustainable-Aquafeeds-Project
-        
+      - icon: envelope
+        href: mailto:julia.blanchard@utas.edu.au
   page-footer:
       background: "#094867"
-      center:
-      - text: Contact us
-        href: mailto:sowdamini.sp@gmail.com
+      #center: 
+     #  - icon: 
+     #    href: University of tasmania
+      
 
   #  right: |
    #   [Terms & Conditions](/ts-and-cs.qmd)    
