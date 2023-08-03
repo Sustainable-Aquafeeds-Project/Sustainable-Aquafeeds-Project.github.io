@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Shutterstock"
+    "text": "&lt;style&gt;\n  body {\n  background-image: url(\"https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n  \n&lt;/style&gt;"
   },
   {
     "objectID": "salmonids.html",
@@ -32,7 +32,7 @@
     "href": "news.html",
     "title": "",
     "section": "",
-    "text": "Sustainable Aquafeeds Project at AMSA 2023\n\n\n\n\n\n\n\n\n\n\nProject co-lead Rich Cottrell and PhD Candidate Sowdamini Sesha Prasad attended the Australian Marine Science Association conference in the Gold Coat in July ‘23. Sowdamini presented her geometric stoichiometry modelling framework for understanding how changing raw materials and ingredients in aquafeeds can result in shifts in the nature of waste in and around fish farms. Rich presented work in preparation on how raw material origins can be as important as feed composition for the environmental footprint of aquaculture feeds, and co-led a session on ’The Future of Sustainable Seafood in Australia’\n\n\nSustainable Aquafeeds in Singapore!\n\n\n\nAt the end of our first full year of the Sustainable Aquafeeds Project, PhD Candidate Sowdamini Sesha Prasad and Research Fellow Rich Cottrell travelled to Singapore in December 2022 to present their research on local to global aquafeeds sustainability assessment at the World Aquaculture Society conference. Great science, networking, and fun had by all (with the exception of bizarre student mixer!) - and Sowdamini’s first international conference presentation. Well done, Sowdamini!"
+    "text": "Sustainable Aquafeeds Project at AMSA 2023\n\n\n\nConferences\n\n\n\n\n\n\n\n\n\n\nJul 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSustainable aquafeeds project at WAS Darwin 2023\n\n\n\nConferences\n\n\n\n\n\n\n\n\n\n\nJun 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSustainable Aquafeeds in Singapore!\n\n\n\nConferences\n\n\n\n\n\n\n\n\n\n\nDec 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual workshop 2022\n\n\n\nWorkshops\n\n\n\n\n\n\n\n\n\n\nNov 15, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#new-tools-to-support-environmentally-sustainable-aquafeeds",
@@ -82,5 +82,33 @@
     "title": "",
     "section": "PROJECT PARTNERS",
     "text": "PROJECT PARTNERS"
+  },
+  {
+    "objectID": "blogs/AMSA2023.html",
+    "href": "blogs/AMSA2023.html",
+    "title": "Sustainable Aquafeeds Project at AMSA 2023",
+    "section": "",
+    "text": "Project co-lead Rich Cottrell and PhD Candidate Sowdamini Sesha Prasad attended the Australian Marine Science Association conference in the Gold Coat in July ‘23. Sowdamini presented her geometric stoichiometry modelling framework for understanding how changing raw materials and ingredients in aquafeeds can result in shifts in the nature of waste in and around fish farms. Rich presented work in preparation on how raw material origins can be as important as feed composition for the environmental footprint of aquaculture feeds, and co-led a session on ’The Future of Sustainable Seafood in Australia’"
+  },
+  {
+    "objectID": "blogs/WAS2022.html",
+    "href": "blogs/WAS2022.html",
+    "title": "Sustainable Aquafeeds in Singapore!",
+    "section": "",
+    "text": "At the end of our first full year of the Sustainable Aquafeeds Project, PhD Candidate Sowdamini Sesha Prasad and Research Fellow Rich Cottrell travelled to Singapore in December 2022 to present their research on local to global aquafeeds sustainability assessment at the World Aquaculture Society conference. Great science, networking, and fun had by all (with the exception of bizarre student mixer!) - and Sowdamini’s first international conference presentation. Well done, Sowdamini!"
+  },
+  {
+    "objectID": "blogs/Nov2022workshop.html",
+    "href": "blogs/Nov2022workshop.html",
+    "title": "Annual workshop 2022",
+    "section": "",
+    "text": "We had a very successful three-day workshop in Nov 2022 with our industry partner, BioMar visiting us from Norway!"
+  },
+  {
+    "objectID": "blogs/WAS2023.html",
+    "href": "blogs/WAS2023.html",
+    "title": "Sustainable aquafeeds project at WAS Darwin 2023",
+    "section": "",
+    "text": "CI Dr Louise Adams and PhD student Xin Zhan (Kathy) attended the World Aquaculture Society conference held in Darwin this year!"
   }
 ]

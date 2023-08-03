@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title></title>
+<title>news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon_logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -57,12 +60,42 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -115,53 +148,137 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Conferences">Conferences <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Workshops">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-  </div>
-  <div class="about-contents">
-     <main class="content" id="quarto-document-content">
-<section id="sustainable-aquafeeds-project-at-amsa-2023" class="level3">
-<h3 data-anchor-id="sustainable-aquafeeds-project-at-amsa-2023">Sustainable Aquafeeds Project at AMSA 2023</h3>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/sowds_AMSA_small.jpg" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/seafood-panel-AMSA_small .jpg" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<p>Project co-lead Rich Cottrell and PhD Candidate Sowdamini Sesha Prasad attended the Australian Marine Science Association conference in the Gold Coat in July ‘23. Sowdamini presented her geometric stoichiometry modelling framework for understanding how changing raw materials and ingredients in aquafeeds can result in shifts in the nature of waste in and around fish farms. Rich presented work in preparation on how raw material origins can be as important as feed composition for the environmental footprint of aquaculture feeds, and co-led a session on ’The Future of Sustainable Seafood in Australia’</p>
-</section>
-<section id="sustainable-aquafeeds-in-singapore" class="level3">
-<h3 data-anchor-id="sustainable-aquafeeds-in-singapore">Sustainable Aquafeeds in Singapore!</h3>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p>At the end of our first full year of the Sustainable Aquafeeds Project, PhD Candidate Sowdamini Sesha Prasad and Research Fellow Rich Cottrell travelled to Singapore in December 2022 to present their research on local to global aquafeeds sustainability assessment at the World Aquaculture Society conference. Great science, networking, and fun had by all (with the exception of bizarre student mixer!) - and Sowdamini’s first international conference presentation. Well done, Sowdamini!</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/sowds_rich_WAS.jpg" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="images/sowds_WAS_small.jpg" class="img-fluid"></p>
-</div>
-</div>
-</div>
+<main class="content" id="quarto-document-content">
 
 
-</section>
-</main> 
-  </div>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Conferences" data-listing-date-sort="1688652000000" data-listing-file-modified-sort="1691031326311" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./blogs/AMSA2023.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="images/events photos/sowds_AMSA_small.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sustainable Aquafeeds Project at AMSA 2023
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Conferences'); return false;">
+Conferences
 </div>
- <!-- /main -->
+</div>
+<div class="card-text listing-description">
+Project co-lead Rich Cottrell and PhD Candidate Sowdamini Sesha Prasad attended the Australian Marine Science Association conference in the Gold Coat in July ‘23. Sowdamini…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jul 7, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Conferences" data-listing-date-sort="1685628000000" data-listing-file-modified-sort="1691040822701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./blogs/WAS2023.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sustainable aquafeeds project at WAS Darwin 2023
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Conferences'); return false;">
+Conferences
+</div>
+</div>
+<div class="card-text listing-description">
+CI Dr Louise Adams and PhD student Xin Zhan (Kathy) attended the World Aquaculture Society conference held in Darwin this year!
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jun 2, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Conferences" data-listing-date-sort="1670763600000" data-listing-file-modified-sort="1691031328962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./blogs/WAS2022.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="images/events photos/sowds_rich_WAS.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sustainable Aquafeeds in Singapore!
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Conferences'); return false;">
+Conferences
+</div>
+</div>
+<div class="card-text listing-description">
+At the end of our first full year of the Sustainable Aquafeeds Project, PhD Candidate Sowdamini Sesha Prasad and Research Fellow Rich Cottrell travelled to Singapore in…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 12, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Workshops" data-listing-date-sort="1668430800000" data-listing-file-modified-sort="1691040630109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./blogs/Nov2022workshop.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="blogs/images/1000008957.JPEG" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Annual workshop 2022
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Workshops'); return false;">
+Workshops
+</div>
+</div>
+<div class="card-text listing-description">
+We had a very successful three-day workshop in Nov 2022 with our industry partner, BioMar visiting us from Norway!
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 15, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -182,6 +299,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

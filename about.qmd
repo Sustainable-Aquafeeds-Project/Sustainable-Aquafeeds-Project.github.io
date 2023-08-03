@@ -3,52 +3,30 @@ editor: visual
 about: marquee
 ---
 
-
 # Our approach
 
 Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox:
 
 ### 1) Mapping the environmental footprint of aquafeeds
 
-
 ::: {layout-ncol="2"}
-
 ![](images/feed_footprint_global.jpg){width="500"}
 
-Raw materials used in aquafeeds are sourced from fisheries and agriculture systems globally. Geographical differences in how raw materials are produced and processed can drive substantial changes to the environmental footprint of aquafeeds. By mapping the cumulative pressures associated with different feed scenarios -  we can provide detailed information on how various ingredient combinations used by our partners could optimise the carbon, water, nutrient, and biodiversity footprints of aquafeeds.
-
+Raw materials used in aquafeeds are sourced from fisheries and agriculture systems globally. Geographical differences in how raw materials are produced and processed can drive substantial changes to the environmental footprint of aquafeeds. By mapping the cumulative pressures associated with different feed scenarios - we can provide detailed information on how various ingredient combinations used by our partners could optimise the carbon, water, nutrient, and biodiversity footprints of aquafeeds.
 :::
-
 
 ### 2) Predictive modelling of local ecosystem impacts
 
-
 ::: {layout-ncol="2"}
-
-
 Aquafeeds are harvested globally but used locally. While the raw materials and ingredients in aquafeeds have changed dramatically in recent years, there is limited information on how changes to feed composition affects ecosystem processes, structure, and biodiversity at local scales. We are developing and testing a range of ecological models as predictive tools, using detailed data from aquaculture digestibility and growth experiments to provide new approaches to aquafeed sustainablility assessment.
-
 
 ![](images/aquapens_pollution.jpg)
 :::
 
-
 ### 3) Future scenario projections to assess trade-offs across sustainable development goals
 
-
 ::: {layout-ncol="2"}
-
 ![](images/feed_sdgs.jpg)
 
-
 Aquaculture's growth in future relies on the supply of different marine and terrestrial feed resources and a suitable environment to grow target species. Like other food sectors, supply faces numerous risks such as climate and global change. We are examining how short-term shocks and long-term climate risks alter the resilience and sustainability of aquafeed supply, and how supply risks be minimised through different feed formulation scenarios.
-
 :::
-
-
-
-
-
-
-
-

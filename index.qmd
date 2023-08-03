@@ -2,10 +2,12 @@
 editor: visual
 sidebar: false
 page-layout: full
+title-block-banner: true
+format: html
 ---
 
-::: {#shutterstock .column-screen}
-![](images/banner-lowres.jpg){fig-align="center"}
+::: {#shutterstock .column-screen style="margin-0rem"}
+![](images/stock_images/banner-lowres.jpg){fig-align="center"}
 :::
 
 ## **New tools to optimise feeds in support of ecosystem-based aquaculture**
@@ -35,6 +37,5 @@ We are working towards a more holistic understanding of environmental pressures 
 ## PROJECT PARTNERS
 
 |                                                      |                                                     |                                                  |                                             |                                    |
-|------------------------|:--------------:|:-----------------------------------|--------------|---------------------------------------|
+|------------------------------------------------------|:---------------------------------------------------:|:-------------------------------------------------|---------------------------------------------|------------------------------------|
 | ![](images/logos/UniTas_IMAS_P_Pos_Col_RGB_2021.png) | ![](images/logos/biomar_logo_2023.png){width="182"} | ![](images/logos/manchesteruni.gif){width="371"} | ![](images/logos/UC_Santa_Barbara_Seal.png) | ![](images/logos/cdu_logo_og.jpeg) |
-

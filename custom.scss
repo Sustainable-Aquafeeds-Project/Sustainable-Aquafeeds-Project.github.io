@@ -89,7 +89,7 @@ $input-group-addon-bg:                  $gray-300 !default;
 
 // Navbar
 
-$navbar-padding-y:                  0rem !default;
+$navbar-padding-y:                  -1rem !default;
 $navbar-dark-hover-color:           $white !default;
 $navbar-light-color:                rgba($black, .3) !default;
 $navbar-light-hover-color:          $gray-900 !default;
@@ -122,8 +122,8 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
 
   &-nav {
     .nav-link {
-      padding-top: .715rem;
-      padding-bottom: 0rem;
+      padding-top: -1rem;
+      padding-bottom: -1rem;
     }
   }
 
@@ -139,12 +139,8 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
 .bg-light {
   border: 0px solid rgba(0, 0, 0, .1);
 
-  &.navbar-fixed-top {
-    border-width: 0 0 0px;
-  }
-
   &.navbar-bottom-top {
-    border-width: 0px 0 0;
+    border-width: -1px 0 0;
   }
 }
 
@@ -298,9 +294,24 @@ th {
   padding-bottom: 0em;
   font-size: 1em;
 }
-.navbar{
-margin-bottom: 0 !important;
-border: 0 !important;
+.navbar {
+  margin-bottom: 0;
+}
+
+/*-- Custom CSS to remove space between navbar and image banner --*/
+.banner {
+  margin-top: 0; /* Set the margin-top to 0 for the .banner class */
+}
+
+
+
+.image-container .figure {
+  margin-top: 0; /* Remove the top margin */
+  margin-bottom: 0; /* Remove the bottom margin */
+}
+
+.navbar {
+  margin-bottom: 0; /* Remove any bottom margin from the navbar */
 }
 
 

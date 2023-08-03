@@ -42,7 +42,7 @@ website:
 format:
   html:
     theme: [lux,custom.scss]
-    css: styles.css
+    #css: styles.css
     
 
 editor: visual
