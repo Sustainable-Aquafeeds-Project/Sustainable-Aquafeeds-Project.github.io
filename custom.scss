@@ -295,18 +295,18 @@ th {
   font-size: 1em;
 }
 .navbar {
-  margin-bottom: -2em;
+  margin-bottom: -1;
 }
 
 /*-- Custom CSS to remove space between navbar and image banner --*/
 .banner {
-  margin-top: -1; /* Set the margin-top to 0 for the .banner class */
+  margin-top: 0; /* Set the margin-top to 0 for the .banner class */
 }
 
 
 
 .image-container .figure {
-  margin-top: -1; /* Remove the top margin */
+  margin-top: 0; /* Remove the top margin */
   margin-bottom: 0; /* Remove the bottom margin */
 }
 
