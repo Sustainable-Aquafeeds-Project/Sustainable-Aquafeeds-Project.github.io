@@ -1,0 +1,26 @@
+---
+editor: visual
+page-layout: full
+---
+
+::: {style="margin: 1em"}
+## Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox
+:::
+
+::: {style="margin: 2.5em"}
+### 1) Mapping the environmental footprint of aquafeeds
+:::
+
+![](/photos/People/slide1.png){style="column-screen"}
+
+::: {style="margin: 2.5em"}
+### 2) Predictive modelling of local ecosystem impacts
+:::
+
+![](/photos/slide2.png){style="column-screen"}
+
+::: {style="margin: 2.5em"}
+### 3) Future scenario projections to assess trade-offs across sustainable development goals
+:::
+
+![](/photos/slide3.png){style="column-screen"}

@@ -8,12 +8,12 @@ page-layout: full
 :::
 
 ::: {style="margin: 2.5em"}
-### 1) Mapping the environmental footprint of aquafeeds {style="margin: 2.5em"}
+### 1) Mapping the environmental footprint of aquafeeds
 
-::: {layout-ncol="2" style="margin: 3em"}
+::: {layout-ncol="2" style="margin: 2.5em"}
 ![](photos/stock_images/feed_footprint_global.jpg){fig-align="center" width="428"}
 
-::: {style="margin: 2.5em"}
+::: {.text style="font-size: 2em"}
 Raw materials used in aquafeeds are sourced from fisheries and agriculture systems globally. Geographical differences in how raw materials are produced and processed can drive substantial changes to the environmental footprint of aquafeeds.
 
 By mapping the cumulative pressures associated with different feed scenarios - we can provide detailed information on how various ingredient combinations used by our partners could optimise the carbon, water, nutrient, and biodiversity footprints of aquafeeds.
