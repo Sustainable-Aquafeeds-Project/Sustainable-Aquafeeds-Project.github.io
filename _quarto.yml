@@ -14,7 +14,7 @@ website:
       - text: "Home"
         href: index.qmd #change padding b/w navbar and image
       - text: Our approach
-        href: aboutv2.qmd
+        href: about.qmd
       # - text: "Study species"
       #   menu: 
       #     - salmonids.qmd
