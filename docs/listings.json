@@ -10,6 +10,11 @@
   },
   {
     "listing": "/research.html",
-    "items": []
+    "items": [
+      "/research/Cao-et-al2023.html",
+      "/research/troell-et-al-2023.html",
+      "/research/kuempel-et-al2023.html",
+      "/research/spillias-et-al2023.html"
+    ]
   }
 ]
