@@ -36,9 +36,9 @@ website:
   page-footer:
       background: "#094867"
       left:  Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
-      right: |
+      center: |
         This project is supported by ![](/photos/logos/ARC_Research_Council.png){width=200px}
-      
+      right: "Built using [Quarto](https://quarto.org/)"
 
   #  right: |
    #   [Terms & Conditions](/ts-and-cs.qmd)    
