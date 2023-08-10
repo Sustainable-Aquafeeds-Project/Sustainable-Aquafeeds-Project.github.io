@@ -1,0 +1,7 @@
+---
+listing: 
+  contents: research
+  type: grid
+  sort: "date desc" 
+  categories: true
+---
