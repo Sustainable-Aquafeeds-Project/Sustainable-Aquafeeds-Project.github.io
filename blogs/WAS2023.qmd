@@ -4,6 +4,6 @@ date: 06/02/2023
 categories: [Conferences]
 ---
 
-![](/photos/events photos/WA2023_Logo_.jpeg){fig-align="center"}
+![](/photos/events%20photos/WA2023_Logo_.jpeg){fig-align="center"}
 
 CI Dr Louise Adams and PhD student Xin Zhan (Kathy) attended the World Aquaculture Society conference held in Darwin this year!
