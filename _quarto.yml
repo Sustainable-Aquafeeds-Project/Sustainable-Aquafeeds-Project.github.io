@@ -36,10 +36,8 @@ website:
   page-footer:
       background: "#094867"
       left:  Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
-      center: 
-      - icon: /ARC_Research_Council.png
-        href: https://www.arc.gov.au/
-        text: This project is supported by [Australian Research Council](https://www.arc.gov.au/)
+      right: |
+        This project is supported by ![](/photos/logos/ARC_Research_Council.png){width=200px}
       
 
   #  right: |
