@@ -35,9 +35,11 @@ website:
         href: mailto:julia.blanchard@utas.edu.au
   page-footer:
       background: "#094867"
-      #center: 
-     #  - icon: 
-     #    href: University of tasmania
+      left:  Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
+      center: 
+      - icon: /ARC_Research_Council.png
+        href: https://www.arc.gov.au/
+        text: This project is supported by [Australian Research Council](https://www.arc.gov.au/)
       
 
   #  right: |
