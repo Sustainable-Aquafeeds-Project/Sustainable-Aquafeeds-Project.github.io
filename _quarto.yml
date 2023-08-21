@@ -4,15 +4,15 @@ project:
 website:
   #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
-  favicon: "favicon_logo.png"
+  favicon: "SAP_website-image_TRANSPARENT.png"
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
     pinned: true
     right:
-      - text: "Home"
-        href: index.qmd #change padding b/w navbar and image
+      - text: Home
+        href: home.qmd #change padding b/w navbar and image
       - text: Our approach
         href: about.qmd
       # - text: "Study species"
