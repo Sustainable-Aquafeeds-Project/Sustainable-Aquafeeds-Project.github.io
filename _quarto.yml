@@ -11,7 +11,7 @@ website:
     collapse-below: lg
     pinned: true
     right:
-      - text: Home
+      - text: "Home"
         href: home.qmd #change padding b/w navbar and image
       - text: Our approach
         href: about.qmd
