@@ -1,7 +1,6 @@
 ---
 editor: visual
 page-layout: custom
-sidebar: false
 format: html
 ---
 

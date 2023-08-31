@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - CNAME
 website:
   #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
@@ -12,19 +14,11 @@ website:
     pinned: true
     right:
       - text: "Home"
-        href: home.qmd #change padding b/w navbar and image
+        href: home.qmd 
       - text: Our approach
         href: about.qmd
-      # - text: "Study species"
-      #   menu: 
-      #     - salmonids.qmd
-      #     - crustaceans.qmd
       - text: Our team
         href: people.qmd
-     # - text: Our research 
-      #  href: publications.qmd
-      # - text: Contact us
-      #   file: contactpage.qmd
       - text: Our research 
         href: research.qmd
       - text: News
@@ -33,11 +27,21 @@ website:
         href: https://github.com/Sustainable-Aquafeeds-Project
       - icon: envelope
         href: mailto:julia.blanchard@utas.edu.au
+  sidebar:
+    - title: "Home"
+      contents: 
+        - home.qmd 
+        - about.qmd
+        - people.qmd
+        - research.qmd
+        - news.qmd
   page-footer:
       background: "#094867"
+      
       left:  Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
       center: |
-        This project is supported by ![](/photos/logos/ARC_Research_Council.png){width=200px}
+        This research is co-funded  by the Australian Government through the Australian Research
+        Council (ARC)Linkage Grant Scheme
       right: "Built using [Quarto](https://quarto.org/)"
 
   #  right: |

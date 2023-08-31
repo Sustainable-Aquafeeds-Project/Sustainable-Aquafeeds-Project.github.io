@@ -1,6 +1,5 @@
 ---
 editor: visual
-sidebar: false
 page-layout: custom
 format: html
 ---
