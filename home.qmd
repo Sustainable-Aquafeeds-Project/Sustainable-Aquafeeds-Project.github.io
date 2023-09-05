@@ -20,9 +20,9 @@ format: html
 ## **Why are aquafeeds important?** {style="text-align: center"}
 
 ::: {layout-ncol="2" style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
-![](photos/stock_images/feed-pellets-small_v2.jpg){width="1500" height="1500"}
+![](photos/feed-pellets-small (1).jpeg)
 
-![](photos/stock_images/feed-throw_small.jpeg)
+![](photos/feed-throw_small (1).jpeg)
 :::
 
 ::: {style="margin:1.5em"}
