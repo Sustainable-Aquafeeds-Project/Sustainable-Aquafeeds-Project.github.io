@@ -1,7 +1,7 @@
 ---
 title: "The environmental footprint of global food production"
 date: 10/24/2022
-categories: [Publications]
+categories: [Global change, food systems]
 ---
 
 ![](halpern-et-al-2022.png)

@@ -1,7 +1,7 @@
 ---
 title: "Next-generation ensemble projections reveal higher climate risks for marine ecosystems"
 date: 10/21/2022
-categories: [Publications]
+categories: [Global change]
 ---
 
 ![](tittensor-et-al2021.png)
