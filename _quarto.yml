@@ -11,7 +11,6 @@ website:
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
     collapse-below: lg
-    pinned: true
     right:
       - text: "Home"
         href: home.qmd 
@@ -27,14 +26,6 @@ website:
         href: https://github.com/Sustainable-Aquafeeds-Project
       - icon: envelope
         href: mailto:julia.blanchard@utas.edu.au
-  sidebar:
-    - title: "Home"
-      contents: 
-        - home.qmd 
-        - about.qmd
-        - people.qmd
-        - research.qmd
-        - news.qmd
   page-footer:
       background: "#094867"
       
