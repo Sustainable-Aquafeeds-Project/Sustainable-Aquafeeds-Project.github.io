@@ -6,7 +6,7 @@ tbl-colwidths: [25,25,25,25]
 ---
 
 +:--------------------------------------------------------------------------------------:+:---------------------------------------------------------------------------:+:----------------------------------------------------------------------:+:------------------------------------------------------------------:+
-| ![](photos/People/Julia-Blanchard-w-SRL.jpeg)                                          | ![](photos/People/2022-05-07 10.38.19.jpeg)                                 | ![](photos/People/Louise-Adams.jpeg)                                   | ![](photos/People/John photo 2019.jpeg)                            |
+| ![](photos/People/Julia-Blanchard-w-SRL.jpeg)                                          | ![](photos/People/2022-05-07%2010.38.19.jpeg)                               | ![](photos/People/Louise-Adams.jpeg)                                   | ![](photos/People/John%20photo%202019.jpeg)                        |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 | [**Prof Julia Blanchard**](https://discover.utas.edu.au/Julia.Blanchard)               | [**Dr Rich Cottrell**](https://discover.utas.edu.au/RichardStuart.Cottrell) | [**Dr Louise Adams**](https://discover.utas.edu.au/Louise.Adams/about) | [**Prof John Bowman**](https://discover.utas.edu.au/John.Bowman)   |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
@@ -14,7 +14,7 @@ tbl-colwidths: [25,25,25,25]
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 | Institute for Marine and Antarctic Studies, University of Tasmania                     | Institute for Marine and Antarctic Studies, University of Tasmania          | Institute for Marine and Antarctic Studies, University of Tasmania     | Tasmanian Institute of Agriculture, University of Tasmania         |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------+
-| ![](photos/People/dunc_Cam.jpeg)                                                       | ![](photos/People/chris-carter.jpeg)                                        | ![](photos/People/Ben5.jpeg)                                           | ![](photos/People/Catriona Website shot.jpeg)                      |
+| ![](photos/People/dunc_Cam.jpeg)                                                       | ![](photos/People/chris-carter.jpeg)                                        | ![](photos/People/Ben5.jpeg)                                           | ![](photos/People/Catriona%20Website%20shot.jpeg)                  |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 | [**Prof Duncan Cameron**](https://research.manchester.ac.uk/en/persons/duncan-cameron) | [**Prof Chris Carter**](https://discover.utas.edu.au/Chris.Carter)          | [**Prof Ben Halpern**](https://bren.ucsb.edu/people/ben-halpern)       | Prof Catriona McLeod                                               |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
@@ -22,7 +22,7 @@ tbl-colwidths: [25,25,25,25]
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 |                                                                                        | Institute for Marine and Antarctic Studies, University of Tasmania          | University of California, Santa Barbara                                | Institute for Marine and Antarctic Studies, University of Tasmania |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------+
-| ![](photos/People/Beth Penrose.jpeg)                                                   |                                                                             |                                                                        |                                                                    |
+| ![](photos/People/Beth%20Penrose.jpeg)                                                 |                                                                             |                                                                        |                                                                    |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 | **Dr Beth Penrose**                                                                    |                                                                             |                                                                        |                                                                    |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
@@ -33,30 +33,30 @@ tbl-colwidths: [25,25,25,25]
 
 ##### Partner Investigators
 
-+:---------------------------------------:+:---------------------------------------------------------:+:----------------------------------------------:+:-----------------------------------------:+
-| ![](photos/People/Marceau_biomar.jpeg)  | ![](photos/People/Erik Gracey Profile Picture 2.jpeg)     | ![](photos/People/Vidar_Gundersen_biomar.jpeg) | ![](photos/People/Helen_biomar.jpeg)      |
-|                                         |                                                           |                                                |                                           |
-| **Marceau Cormery**                     | **Erik Gracey**                                           | **Vidar Gundersen**                            | **Dr Helen Hamilton**                     |
-|                                         |                                                           |                                                |                                           |
-| Sustainability Data Analyst             | Global Sustainability Manager - Commercial                | Global Sustainability Director                 | Global Sustainability Manager - Technical |
-|                                         |                                                           |                                                |                                           |
-| BioMar Group                            | BioMar Group                                              | BioMar Group                                   | BioMar Group                              |
-+-----------------------------------------+-----------------------------------------------------------+------------------------------------------------+-------------------------------------------+
-| ![](photos/People/TomFox-Smith_bw.jpeg) | ![](photos/People/David_Whyte_Biomar.jpeg)**David Whyte** |                                                |                                           |
-|                                         |                                                           |                                                |                                           |
-| **Tom Fox-Smith**                       | Managing Director BioMar PTY LTD                          |                                                |                                           |
-|                                         |                                                           |                                                |                                           |
-| Technical Director BioMar Group         | (Australia)                                               |                                                |                                           |
-|                                         |                                                           |                                                |                                           |
-| (Australia)                             |                                                           |                                                |                                           |
-+-----------------------------------------+-----------------------------------------------------------+------------------------------------------------+-------------------------------------------+
++:---------------------------------------:+:-------------------------------------------------------------:+:----------------------------------------------:+:-----------------------------------------:+
+| ![](photos/People/Marceau_biomar.jpeg)  | ![](photos/People/Erik%20Gracey%20Profile%20Picture%202.jpeg) | ![](photos/People/Vidar_Gundersen_biomar.jpeg) | ![](photos/People/Helen_biomar.jpeg)      |
+|                                         |                                                               |                                                |                                           |
+| **Marceau Cormery**                     | **Erik Gracey**                                               | **Vidar Gundersen**                            | **Dr Helen Hamilton**                     |
+|                                         |                                                               |                                                |                                           |
+| Sustainability Data Analyst             | Global Sustainability Manager - Commercial                    | Global Sustainability Director                 | Global Sustainability Manager - Technical |
+|                                         |                                                               |                                                |                                           |
+| BioMar Group                            | BioMar Group                                                  | BioMar Group                                   | BioMar Group                              |
++-----------------------------------------+---------------------------------------------------------------+------------------------------------------------+-------------------------------------------+
+| ![](photos/People/TomFox-Smith_bw.jpeg) | ![](photos/People/David_Whyte_Biomar.jpeg)**David Whyte**     |                                                |                                           |
+|                                         |                                                               |                                                |                                           |
+| **Tom Fox-Smith**                       | Managing Director BioMar PTY LTD                              |                                                |                                           |
+|                                         |                                                               |                                                |                                           |
+| Technical Director BioMar Group         | (Australia)                                                   |                                                |                                           |
+|                                         |                                                               |                                                |                                           |
+| (Australia)                             |                                                               |                                                |                                           |
++-----------------------------------------+---------------------------------------------------------------+------------------------------------------------+-------------------------------------------+
 
 ##### Postgraduates
 
-+:-------------------------------------:+:------------------------------:+:-------------------------------------------------:+:--------------------------------:+
-| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | ![](photos/People/Inspiring_women_2022_0370.jpeg) | ![](photos/People/Xin Zhan.jpeg) |
-|                                       |                                |                                                   |                                  |
-| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | **Sowdamini Sesha Prasad**                        | **Xin Zhan (Kathy)**             |
-|                                       |                                |                                                   |                                  |
-| PhD candidate                         | PhD candidate                  | PhD candidate                                     | PhD candidate                    |
-+---------------------------------------+--------------------------------+---------------------------------------------------+----------------------------------+
++:-------------------------------------:+:------------------------------:+:-------------------------------------------------:+:----------------------------------:+
+| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | ![](photos/People/Inspiring_women_2022_0370.jpeg) | ![](photos/People/Xin%20Zhan.jpeg) |
+|                                       |                                |                                                   |                                    |
+| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | **Sowdamini Sesha Prasad**                        | **Xin Zhan (Kathy)**               |
+|                                       |                                |                                                   |                                    |
+| PhD candidate                         | PhD candidate                  | PhD candidate                                     | PhD candidate                      |
++---------------------------------------+--------------------------------+---------------------------------------------------+------------------------------------+
