@@ -13,7 +13,7 @@ website:
     collapse-below: lg
     right:
       - text: "Home"
-        href: home.qmd 
+        href: home.qmd
       - text: Our approach
         href: about.qmd
       - text: Our team
