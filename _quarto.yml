@@ -15,11 +15,11 @@ website:
       - text: "Home"
         href: home.qmd
       - text: Our approach
-        href: about.qmd
+        href: ourapproach.qmd
       - text: Our team
-        href: people.qmd
+        href: ourteam.qmd
       - text: Our research 
-        href: research.qmd
+        href: ourresearch.qmd
       - text: News
         href: news.qmd
       - icon: github
