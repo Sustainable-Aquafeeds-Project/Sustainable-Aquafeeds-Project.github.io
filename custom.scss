@@ -318,6 +318,10 @@ th {
   margin-bottom: 0; /* Remove any bottom margin from the navbar */
 }
 
+.responsive-img {
+  max-width: 100%; /*attempt to make images responsive */
+  height: auto;
+}
 
 
 
