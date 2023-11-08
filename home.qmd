@@ -20,9 +20,9 @@ format: html
 ## **Why are aquafeeds important?** {style="text-align: center"}
 
 ::: {layout-ncol="2" style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
-![](photos/feed-pellets-small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="364"}
+![](photos/feed-pellets-small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="750"}
 
-![](photos/feed-throw_small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="364"}
+![](photos/feed-throw_small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="750"}
 :::
 
 ::: {style="margin:1.5em"}
@@ -35,9 +35,9 @@ Aquaculture currently produces over half of all fish consumed by humans and is a
 ## **What are aquafeeds made from?** {style="text-align: center;  margin: 1.5em"}
 
 ::: {layout-ncol="2" style="margin: 1.5em"}
-![](photos/stock_images/soy_small.jpg){.responsive-img .responsive-img fig-align="center" width="465"}
+![](photos/stock_images/soy_small.jpg){.responsive-img .responsive-img fig-align="center" width="750"}
 
-![](photos/stock_images/foragefish_small.jpg){.responsive-img .responsive-img fig-align="center" width="465"}
+![](photos/stock_images/foragefish_small.jpg){.responsive-img .responsive-img fig-align="center" width="750"}
 :::
 
 ::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
