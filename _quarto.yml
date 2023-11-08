@@ -6,7 +6,7 @@ project:
 website:
   #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
-  favicon: "SAP_website-image_TRANSPARENT.png"
+  favicon: "SAP_website_favicon.png"
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "SAP"
