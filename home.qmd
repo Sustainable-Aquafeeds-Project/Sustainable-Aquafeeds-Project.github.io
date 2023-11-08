@@ -18,17 +18,19 @@ format: html
 
 ::: {style="margin:1.5em"}
 ## **Why are aquafeeds important?** {style="text-align: center"}
+:::
 
-::: {.responsive-img layout-ncol="2" style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
-![](photos/feed-pellets-small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="750"}
+##  {style="text-align: center"}
 
-![](photos/feed-throw_small%20(1).jpeg){.responsive-img .responsive-img fig-align="center" width="750"}
+::: {.responsive-img layout-ncol="2" style="text-align: center;  margin: 1.5em"}
+![](photos/feed-pellets-small%20(1).jpeg){.responsive-img fig-align="center" width="750"}
+
+![](photos/feed-throw_small%20(1).jpeg){.responsive-img fig-align="center" width="750"}
 :::
 
 ::: {style="margin:1.5em"}
 ::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
 Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which can account for the majority of environmental impacts in the life-cycle of farmed fish. Aquafeeds thus present a key lever for improving the sustainability of the aquaculture sector.
-:::
 :::
 :::
 
