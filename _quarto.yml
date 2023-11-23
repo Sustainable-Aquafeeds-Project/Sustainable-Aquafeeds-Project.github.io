@@ -9,10 +9,11 @@ website:
   favicon: "SAP_website_favicon.png"
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
-    logo-alt: "SAP"
+    logo-alt: "Sustainable aquafeeds project"
+    logo-href: /home.html 
     collapse-below: lg
     right:
-      - text: "Home"
+      - text: Home
         href: home.qmd
       - text: Our approach
         href: ourapproach.qmd

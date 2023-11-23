@@ -1,7 +1,7 @@
 ---
 title: "Expert perceptions of seaweed farming for sustainable development"
 date: 09/25/2022
-categories: [Food systems]
+categories: [food systems]
 ---
 
 ![](spillias-et-al2022.jpg)
