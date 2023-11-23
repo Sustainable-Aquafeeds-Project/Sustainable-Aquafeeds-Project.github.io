@@ -22,7 +22,7 @@ tbl-colwidths: [25,25,25,25]
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 |                                                                                        | Institute for Marine and Antarctic Studies, University of Tasmania          | University of California, Santa Barbara                                | Institute for Marine and Antarctic Studies, University of Tasmania |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------+
-| ![](photos/People/Beth%20Penrose.jpeg)                                                 | ![](photos/People/Karen October 23.jpeg)                                    | **Dr Scott Hadley**                                                    | **Dr Camille White**                                               |
+| ![](photos/People/Beth%20Penrose.jpeg)                                                 | ![](photos/People/Karen%20October%2023.jpeg)                                | **Dr Scott Hadley**                                                    | **Dr Camille White**                                               |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
 | **Dr Beth Penrose**                                                                    | **Dr Karen Alexander**                                                      | Research Collaborator                                                  | Research Collaborator                                              |
 |                                                                                        |                                                                             |                                                                        |                                                                    |
@@ -53,16 +53,16 @@ tbl-colwidths: [25,25,25,25]
 
 ##### Postgraduates
 
-+:-------------------------------------:+:------------------------------:+:------------------:+:-------------------------------------------------:+
-| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | **Xintong Qiu**    | ![](photos/People/Inspiring_women_2022_0370.jpeg) |
-|                                       |                                |                    |                                                   |
-| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | PhD candidate      | **Sowdamini Sesha Prasad**                        |
-|                                       |                                |                    |                                                   |
-| PhD candidate                         | PhD candidate                  |                    | PhD candidate                                     |
-+---------------------------------------+--------------------------------+--------------------+---------------------------------------------------+
-| ![](photos/People/Xin%20Zhan.jpeg)    |                                |                    |                                                   |
-|                                       |                                |                    |                                                   |
-| **Xin Zhan (Kathy)**                  |                                |                    |                                                   |
-|                                       |                                |                    |                                                   |
-| PhD candidate                         |                                |                    |                                                   |
-+---------------------------------------+--------------------------------+--------------------+---------------------------------------------------+
++:-------------------------------------:+:------------------------------:+:---------------:+:-------------------------------------------------:+
+| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | **Xintong Qiu** | ![](photos/People/Inspiring_women_2022_0370.jpeg) |
+|                                       |                                |                 |                                                   |
+| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | PhD candidate   | **Sowdamini Sesha Prasad**                        |
+|                                       |                                |                 |                                                   |
+| PhD candidate                         | PhD candidate                  |                 | PhD candidate                                     |
++---------------------------------------+--------------------------------+-----------------+---------------------------------------------------+
+| ![](photos/People/Xin%20Zhan.jpeg)    |                                |                 |                                                   |
+|                                       |                                |                 |                                                   |
+| **Xin Zhan (Kathy)**                  |                                |                 |                                                   |
+|                                       |                                |                 |                                                   |
+| PhD candidate                         |                                |                 |                                                   |
++---------------------------------------+--------------------------------+-----------------+---------------------------------------------------+
