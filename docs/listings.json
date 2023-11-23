@@ -1,37 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/blogs/growthexperiment.html",
-      "/blogs/AMSA2023.html",
-      "/blogs/WAS2023.html",
-      "/blogs/WAS2022.html",
-      "/blogs/Nov2022workshop.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/research/Cao-et-al2023.html",
-      "/research/troell-et-al-2023.html",
-      "/research/kuempel-et-al2023.html",
-      "/research/spillias-et-al2023.html",
-      "/research/halpern-et-al2022.html",
-      "/research/tittensor-et-al2021.html",
-      "/research/spillias-et-al2022.html",
-      "/research/clawson-et-al2022.html",
-      "/research/cottrell2022.html",
-      "/research/love-et-al2021.html",
-      "/research/cottrell-et-al2021.html",
-      "/research/kuempel-et-al2020.html",
-      "/research/cottrell-et-al2020.html",
-      "/research/halpern-et-al2019.html",
-      "/research/blanchard-et-al2017.html",
-      "/research/cottrell-et-al2017.html",
-      "/research/merino-et-al2012.html"
-    ]
-  },
-  {
     "listing": "/ourresearch.html",
     "items": [
       "/research/johne-et-al2023.html",
@@ -52,6 +20,16 @@
       "/research/blanchard-et-al2017.html",
       "/research/cottrell-et-al2017.html",
       "/research/merino-et-al2012.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/blogs/growthexperiment.html",
+      "/blogs/AMSA2023.html",
+      "/blogs/WAS2023.html",
+      "/blogs/WAS2022.html",
+      "/blogs/Nov2022workshop.html"
     ]
   }
 ]
