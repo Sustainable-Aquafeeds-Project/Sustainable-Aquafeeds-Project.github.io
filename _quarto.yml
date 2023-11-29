@@ -14,7 +14,7 @@ website:
     collapse-below: lg
     right:
       - text: Home
-        href: home.qmd
+        href: index.qmd
       - text: Our approach
         href: ourapproach.qmd
       - text: Our team
