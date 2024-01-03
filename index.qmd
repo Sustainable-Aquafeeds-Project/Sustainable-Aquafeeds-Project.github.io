@@ -4,8 +4,8 @@ page-layout: custom
 format: html
 ---
 
-::: {#shutterstock .column-screen style="padding: 0em;margin: 0em"}
-![](photos/stock_images/banner-lowres.jpg){fig-align="center"}
+::: {#shutterstock .column-screen style="padding: 0em;margin: -2em"}
+![](photos/stock_images/banner-lowres.jpg){.banner fig-align="center"}
 :::
 
 ::: {#overview .column-body style="text-align: center; margin: 1em"}
