@@ -4,7 +4,7 @@ page-layout: custom
 format: html
 ---
 
-::: {#shutterstock .column-screen style="padding: 0em;margin: -2em"}
+::: {#shutterstock .column-screen style="padding: 0em;margin-top: -1em"}
 ![](photos/stock_images/banner-lowres.jpg){.banner fig-align="center"}
 :::
 
@@ -37,9 +37,9 @@ Aquaculture currently produces over half of all fish consumed by humans and is a
 ## **What are aquafeeds made from?** {style="text-align: center;  margin: 1.5em"}
 
 ::: {.responsive-img layout-ncol="2" style="margin: 1.5em"}
-![](photos/stock_images/soy_small.jpg){.responsive-img .responsive-img fig-align="center" width="750"}
+![](photos/stock_images/soy_small.jpg){.responsive-img fig-align="center" width="750"}
 
-![](photos/stock_images/foragefish_small.jpg){.responsive-img .responsive-img fig-align="center" width="750"}
+![](photos/stock_images/foragefish_small.jpg){.responsive-img fig-align="center" width="750"}
 :::
 
 ::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
@@ -55,5 +55,5 @@ We are working towards a more holistic understanding of environmental pressures 
 ## PROJECT PARTNERS {style="text-align: center;  margin: 1.5em"}
 
 ::: column-screen
-![](photos/logos/Logos_stitched_v2.jpeg)
+![](photos/logos/Logos_stitched_v2.jpeg){.responsive-img}
 :::
