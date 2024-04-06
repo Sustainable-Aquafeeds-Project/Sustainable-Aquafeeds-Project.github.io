@@ -43,6 +43,5 @@ format:
     theme: [lux,custom.scss]
     #css: style.css
     
-
 editor: visual
 
