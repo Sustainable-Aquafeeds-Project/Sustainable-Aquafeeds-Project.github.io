@@ -29,14 +29,13 @@ website:
         href: mailto:julia.blanchard@utas.edu.au
   page-footer:
       background: "#094867"
-      
-      left:  Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
+      left:  |
+        <br>Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)<br><br>
       center: |
         This research is co-funded  by the Australian Government through the Australian Research
         Council (ARC)Linkage Grant Scheme
-      right: "Built using [Quarto](https://quarto.org/)"
-
-  #  right: |
+      right: |
+        <br>Built using [Quarto](https://quarto.org/)<br><br>
    #   [Terms & Conditions](/ts-and-cs.qmd)    
 format:
   html:
