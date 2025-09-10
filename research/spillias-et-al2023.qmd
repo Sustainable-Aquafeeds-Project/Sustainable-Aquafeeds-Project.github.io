@@ -2,7 +2,7 @@
 title: |
   Reducing global land-use pressures with seaweed farming
 date: 01/26/2023
-categories: [global change, environmental impacts]
+categories: [global change, environmental impacts, seaweed farming]
 ---
 
 ![](spillas-2023.png)

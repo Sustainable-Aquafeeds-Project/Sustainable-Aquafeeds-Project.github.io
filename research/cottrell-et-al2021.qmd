@@ -2,7 +2,7 @@
 title: |
   Time to rethink trophic levels in aquaculture policy
 date: 02/08/2021
-categories: [aquafeed development]
+categories: [aquafeed development, policy]
 ---
 
 ![](cottrell-et-al2021.jpeg)
