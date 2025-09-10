@@ -1,9 +1,9 @@
 ---
 title: "Global adoption of novel aquaculture feeds could substantially reduce forage fish demand by 2030"
 date: 05/19/2020
-categories: [Global change, aquafeed development]
+categories: [global change, aquafeed development]
 ---
 
 ![](cottrell-et-al2020.png)
 
-<https://www.nature.com/articles/s43016-020-0078-x>
+Access the article [here](https://www.nature.com/articles/s43016-020-0078-x).

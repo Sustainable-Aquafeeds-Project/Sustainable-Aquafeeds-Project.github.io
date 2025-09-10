@@ -6,4 +6,4 @@ categories: [aquafeed development]
 
 ![](cottrell-et-al2021.jpeg)
 
-[**https://doi.org/10.1111/raq.12535**](https://doi.org/10.1111/raq.12535)
+Access the article [here](https://doi.org/10.1111/raq.12535).

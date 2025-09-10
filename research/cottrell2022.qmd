@@ -4,4 +4,4 @@ date: 01/01/2022
 categories: [aquafeed development]
 ---
 
-<https://www.nature.com/articles/s41893-021-00798-0> 
+Access the article [here](https://www.nature.com/articles/s41893-021-00798-0). Sustainable farming of fish requires their feed to be responsibly sourced. New research illustrates how we could convert industrial carbon emissions into a valuable feed resource.
