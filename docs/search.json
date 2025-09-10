@@ -70,18 +70,39 @@
     "text": "Access the article here."
   },
   {
-    "objectID": "ourteam.html",
-    "href": "ourteam.html",
+    "objectID": "ourteam.html#partner-investigators",
+    "href": "ourteam.html#partner-investigators",
     "title": "Our Team",
-    "section": "",
-    "text": "Our Team\n\n\n\n\n\n\n\n\n\n\nProf Julia Blanchard\nChief Investigator, project lead\nInstitute for Marine and Antarctic Studies, University of Tasmania\n\nDr Tormey Reimer\nPostdoctoral Research Fellow, project co-lead\nInstitute for Marine and Antarctic Studies, University of Tasmania\n\nDr Louise Adams\nChief Investigator\nInstitute for Marine and Antarctic Studies, University of Tasmania\n\nProf John Bowman\nChief Investigator\nTasmanian Institute of Agriculture, University of Tasmania\n\n\n\nProf Duncan Cameron\nPartner Investigator\nUniversity of Manchester\n\nProf Chris Carter\nChief Investigator\nInstitute for Marine and Antarctic Studies, University of Tasmania\n\nProf Ben Halpern\nPartner Investigator\nUniversity of California, Santa Barbara\n\nProf Catriona McLeod\nChief Investigator\nInstitute for Marine and Antarctic Studies, University of Tasmania\n\n\n\nDr Beth Penrose\nPartner Investigator\nCharles Darwin University\n\nDr Karen Alexander\nInternational Collaborator\nHeriot Watt University\n\nDr Scott Hadley\nResearch Collaborator\nUniversity of Tasmania\n\nDr Camille White\nResearch Collaborator\nUniversity of Tasmania\n\n\n\nDr Rich Cottrell\nFormer project co-lead\n\n\n\n\n\n\n\nPartner Investigators\n\n\n\n\n\n\n\n\n\n\nMarceau Cormery\nSustainability Data Analyst\nBioMar Group\n\nErik Gracey\nGlobal Sustainability Manager - Commercial\nBioMar Group\n\nVidar Gundersen\nGlobal Sustainability Director\nBioMar Group\n\nDr Helen Hamilton\nGlobal Sustainability Manager - Technical\nBioMar Group\n\n\n\nTom Fox-Smith\nTechnical Director BioMar Group\n(Australia)\nDavid Whyte\nManaging Director BioMar PTY LTD\n(Australia)\n\n\n\n\n\n\n\nPostgraduates\n\n\n\n\n\n\n\n\n\n\nSamuel (Gage) Clawson\nPhD candidate\n\nAlexandra (Alex) Johne\nPhD candidate\nXintong Qiu\nPhD candidate\n\nSowdamini Sesha Prasad\nPhD candidate\n\n\n\nXin Zhan (Kathy)\nPhD candidate"
+    "section": "Partner Investigators",
+    "text": "Partner Investigators\n\n\n\n\n\n\n\n\n\n\nMarceau Cormery\nSustainability Data Analyst\nBioMar Group\n\nErik Gracey\nGlobal Sustainability Manager - Commercial\nBioMar Group\n\nVidar Gundersen\nGlobal Sustainability Director\nBioMar Group\n\nDr Helen Hamilton\nGlobal Sustainability Manager - Technical\nBioMar Group\n\n\n\nTom Fox-Smith\nTechnical Director BioMar Group\n(Australia)\nDavid Whyte\nManaging Director BioMar PTY LTD\n(Australia)"
   },
   {
-    "objectID": "ourapproach.html#our-project-is-advancing-three-research-areas-to-create-a-new-sustainable-aquaculture-feed-toolbox",
-    "href": "ourapproach.html#our-project-is-advancing-three-research-areas-to-create-a-new-sustainable-aquaculture-feed-toolbox",
+    "objectID": "ourteam.html#postgraduates",
+    "href": "ourteam.html#postgraduates",
+    "title": "Our Team",
+    "section": "Postgraduates",
+    "text": "Postgraduates\n\n\n\n\n\n\n\n\n\n\nSamuel (Gage) Clawson\nPhD candidate\n\nAlexandra (Alex) Johne\nPhD candidate\nXintong Qiu\nPhD candidate\n\nSowdamini Sesha Prasad\nPhD candidate\n\n\n\nXin Zhan (Kathy)\nPhD candidate"
+  },
+  {
+    "objectID": "ourapproach.html#mapping-the-environmental-footprint-of-aquafeeds",
+    "href": "ourapproach.html#mapping-the-environmental-footprint-of-aquafeeds",
     "title": "",
-    "section": "Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox",
-    "text": "Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox"
+    "section": "1. Mapping the environmental footprint of aquafeeds",
+    "text": "1. Mapping the environmental footprint of aquafeeds\n\n\n\n\n\nRaw materials used in aquafeeds are sourced from fisheries and agriculture systems globally. Geographical differences in how raw materials are produced and processed can drive substantial changes to the environmental footprint of aquafeeds.\nBy mapping the cumulative pressures associated with different feed scenarios - we can provide detailed information on how various ingredient combinations used by our partners could optimise the carbon, water, nutrient, and biodiversity footprints of aquafeeds."
+  },
+  {
+    "objectID": "ourapproach.html#predictive-modelling-of-local-ecosystem-impacts",
+    "href": "ourapproach.html#predictive-modelling-of-local-ecosystem-impacts",
+    "title": "",
+    "section": "2. Predictive modelling of local ecosystem impacts",
+    "text": "2. Predictive modelling of local ecosystem impacts\n\n\nAquafeeds are harvested globally but used locally. While the raw materials and ingredients in aquafeeds have changed dramatically in recent years, there is limited information on how changes to feed composition affects ecosystem processes, structure, and biodiversity at local scales.\nWe are developing and testing a range of ecological models as predictive tools, using detailed data from aquaculture digestibility and growth experiments to provide new approaches to aquafeed sustainablility assessment."
+  },
+  {
+    "objectID": "ourapproach.html#future-scenario-projections-to-assess-trade-offs-across-sustainable-development-goals",
+    "href": "ourapproach.html#future-scenario-projections-to-assess-trade-offs-across-sustainable-development-goals",
+    "title": "",
+    "section": "3. Future scenario projections to assess trade-offs across sustainable development goals",
+    "text": "3. Future scenario projections to assess trade-offs across sustainable development goals\n\n\n\n\n\nAquaculture’s growth in future relies on the supply of different marine and terrestrial feed resources and a suitable environment to grow target species. Like other food sectors, supply faces numerous risks such as climate and global change.\nWe are examining how short-term shocks and long-term climate risks alter the resilience and sustainability of aquafeed supply, and how supply risks be minimised through different feed formulation scenarios."
   },
   {
     "objectID": "index.html#why-are-aquafeeds-important",

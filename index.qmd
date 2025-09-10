@@ -11,8 +11,8 @@ description-meta: |
 ![](photos/stock_images/banner-lowres.jpg){.banner fig-align="center"}
 :::
 
-::: {#overview .column-body style="text-align: center; margin: 1em; font-size: 3em;"}
-# New tools to optimise feeds in support of ecosystem-based aquaculture
+::: {#overview .column-body}
+# New tools to optimise feeds in support of ecosystem-based aquaculture {.text-center style="margin: 1em; font-size: 1.75em"}
 :::
 
 ::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}

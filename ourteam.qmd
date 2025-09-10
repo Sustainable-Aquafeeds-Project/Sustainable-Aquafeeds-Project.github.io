@@ -8,7 +8,9 @@ description-meta: |
     Our team of researchers, partner investigators and posdoctoral candidates. 
 ---
 
-# Our Team {style="text-align: center;"}
+::: {.text-center}
+# Our Team {style="margin: 1em; font-size: 1.75em"}
+:::
 
 +:--------------------------------------------------------------------------------------:+:----------------------------------------------------------------------:+:----------------------------------------------------------------------:+:-------------------------------------------------------------------------:+
 | ![](photos/People/Julia-Blanchard-w-SRL.jpeg)                                          | ![](photos/People\Tormey-pic.jpg)                                      | ![](photos/People/Louise-Adams.jpeg)                                   | ![](photos/People/John%20photo%202019.jpeg)                               |
@@ -42,7 +44,7 @@ description-meta: |
 | Former project co-lead                                                                 |                                                                        |                                                                        |                                                                           |
 +----------------------------------------------------------------------------------------+------------------------------------------------------------------------+------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
-##### Partner Investigators
+## Partner Investigators {.text-center}
 
 +:---------------------------------------:+:-------------------------------------------------------------:+:----------------------------------------------:+:-----------------------------------------:+
 | ![](photos/People/Marceau_biomar.jpeg)  | ![](photos/People/Erik%20Gracey%20Profile%20Picture%202.jpeg) | ![](photos/People/Vidar_Gundersen_biomar.jpeg) | ![](photos/People/Helen_biomar.jpeg)      |
@@ -62,7 +64,7 @@ description-meta: |
 | (Australia)                             |                                                               |                                                |                                           |
 +-----------------------------------------+---------------------------------------------------------------+------------------------------------------------+-------------------------------------------+
 
-##### Postgraduates
+## Postgraduates {.text-center}
 
 +:-------------------------------------:+:------------------------------:+:---------------:+:-------------------------------------------------:+
 | ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | **Xintong Qiu** | ![](photos/People/Inspiring_women_2022_0370.jpeg) |

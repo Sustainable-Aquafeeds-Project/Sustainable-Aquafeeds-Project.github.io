@@ -8,4 +8,4 @@ listing:
   categories: true
 ---
 
-# Key publications from our team members, partners and collaborators
+# Key publications from our team members, partners and collaborators {.text-center style="margin: 1em; font-size: 1.5em"}

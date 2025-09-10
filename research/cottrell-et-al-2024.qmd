@@ -6,6 +6,6 @@ categories: [global change, food systems, environmental impacts, aquaculture, fi
 editor: source
 ---
 
-![](rich-et-al-2024.png)
+![](cottrell-et-al-2024.png)
 
 Access the article [**here**](https://doi.org/10.1038/s43016-024-00933-y).
