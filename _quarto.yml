@@ -21,8 +21,8 @@ website:
         href: ourteam.qmd
       - text: Our research 
         href: ourresearch.qmd
-      - text: News
-        href: news.qmd
+      # - text: News
+      #   href: news.qmd
       - icon: github
         href: https://github.com/Sustainable-Aquafeeds-Project
       - icon: envelope

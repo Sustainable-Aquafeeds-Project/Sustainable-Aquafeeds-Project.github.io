@@ -1,4 +1,5 @@
 ---
+editor: source
 listing: 
   contents: blogs
   type: grid

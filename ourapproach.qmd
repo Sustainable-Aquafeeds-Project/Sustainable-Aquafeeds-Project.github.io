@@ -1,7 +1,10 @@
 ---
-editor: visual
+editor: source
 page-layout: custom
 format: html
+pagetitle: Our Approach | Sustainable Aquafeeds Project
+description-meta: |
+    Our project is advancing three research areas to create a new sustainable aquaculture feed toolbox.
 ---
 
 <div>
