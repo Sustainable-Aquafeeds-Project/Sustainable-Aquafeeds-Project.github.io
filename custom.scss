@@ -307,8 +307,6 @@ th {
   margin-top: 0; /* Set the margin-top to 0 for the .banner class */
 }
 
-
-
 .image-container .figure {
   margin-top: 0; /* Remove the top margin */
   margin-bottom: 0; /* Remove the bottom margin */
@@ -330,3 +328,8 @@ th {
   }
 }
 
+// Stop cards on research page from capitalising long titles
+.list-group-item h1,.list-group-item h2,.list-group-item h3,.list-group-item h4,.list-group-item h5,.list-group-item h6,.list-group-item .h1,.list-group-item .h2,.list-group-item .h3,.list-group-item .h4,.list-group-item .h5,.list-group-item .h6,.card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card .h1,.card .h2,.card .h3,.card .h4,.card .h5,.card .h6 {
+    color: inherit;
+    text-transform: none;
+}

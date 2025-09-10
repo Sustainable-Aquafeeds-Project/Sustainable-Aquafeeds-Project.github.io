@@ -6,4 +6,4 @@ listing:
   categories: true
 ---
 
-### A collection of key publications by our team members, partners and collaborators
+## A collection of key publications by our team members, partners and collaborators
