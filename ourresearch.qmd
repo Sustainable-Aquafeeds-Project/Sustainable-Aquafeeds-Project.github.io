@@ -1,5 +1,6 @@
 ---
 page-layout: full
+editor: source
 listing: 
   contents: research
   type: grid
@@ -7,4 +8,4 @@ listing:
   categories: true
 ---
 
-## A collection of key publications by our team members, partners and collaborators
+# Key publications from our team members, partners and collaborators

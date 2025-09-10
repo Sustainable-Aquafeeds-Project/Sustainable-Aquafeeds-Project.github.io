@@ -1,8 +1,0 @@
----
-title: |
-  Feeding fish with fumes
-date: 01/01/2022
-categories: [aquafeed development, aquaculture]
----
-
-Access the article [**here**](https://doi.org/10.1038/s41893-021-00798-0).

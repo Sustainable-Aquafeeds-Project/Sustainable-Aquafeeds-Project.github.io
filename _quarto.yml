@@ -30,17 +30,16 @@ website:
   page-footer:
       background: "#094867"
       left:  |
-        <br>Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)<br><br>
+        <br>Copyright &copy; 2023 [Sustainable Aquafeeds Project](https://sustainable-aquafeeds-project.github.io/)
       center: |
-        This research is co-funded  by the Australian Government through the Australian Research
-        Council (ARC)Linkage Grant Scheme
+        This research is co-funded  by the Australian Government through the Australian Research Council (ARC)Linkage Grant Scheme
       right: |
-        <br>Built using [Quarto](https://quarto.org/)<br><br>
+        <br>Built using [Quarto](https://quarto.org/)
    #   [Terms & Conditions](/ts-and-cs.qmd)    
 format:
   html:
     theme: [lux,custom.scss]
     #css: style.css
     
-editor: visual
+editor: source
 
