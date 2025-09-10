@@ -1,9 +1,10 @@
 ---
-title: "Modeling the effects of ration on individual growth of Oncorhynchus tshawytscha under controlled conditions"
+title: |
+  Modeling the effects of ration on individual growth of _Oncorhynchus tshawytscha_ under controlled conditions
 date: 07/06/2023
 categories: [aquafeed development]
 ---
 
 ![](/photos/stock_images/pellets-in-hand.jpg)
 
-[**https://doi.org/10.1111/jfb.15499**](https://doi.org/10.1111/jfb.15499)
+Access the article [**here**](https://doi.org/10.1111/jfb.15499).

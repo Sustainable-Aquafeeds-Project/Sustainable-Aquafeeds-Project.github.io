@@ -1,9 +1,10 @@
 ---
-title: "Integrating Life Cycle and Impact Assessments to Map Food's Cumulative Environmental Footprint"
+title: |
+  Integrating Life Cycle and Impact Assessments to Map Food's Cumulative Environmental Footprint
 date: 07/24/2020
-categories: [Environmental impacts, food systems]
+categories: [environmental impacts, food systems]
 ---
 
 ![](kuempel-et-al2020.jpg)
 
-<https://doi.org/10.1016/j.oneear.2020.06.014>
+Access the article [**here**](https://doi.org/10.1016/j.oneear.2020.06.014).

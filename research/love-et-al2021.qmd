@@ -1,9 +1,10 @@
 ---
-title: "Emerging COVID-19 impacts, responses, and lessons for building resilience in the seafood system"
+title: |
+  Emerging COVID-19 impacts, responses, and lessons for building resilience in the seafood system
 date: 03/03/2021
-categories: [Global change, food systems]
+categories: [global change, food systems]
 ---
 
 ![](love-et-al-2021.jpg)
 
-<https://doi.org/10.1016/j.gfs.2021.100494>
+Access the article [**here**](https://doi.org/10.1016/j.gfs.2021.100494).

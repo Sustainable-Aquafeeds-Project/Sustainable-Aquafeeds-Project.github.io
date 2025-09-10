@@ -1,9 +1,10 @@
 ---
-title: "Reducing global land-use pressures with seaweed farming"
+title: |
+  Reducing global land-use pressures with seaweed farming
 date: 01/26/2023
-categories: [Global change, environmental impacts]
+categories: [global change, environmental impacts]
 ---
 
 ![](spillas-2023.png)
 
-<https://www.nature.com/articles/s41893-022-01043-y>
+Access the article [**here**](https://doi.org/10.1038/s41893-022-01043-y).

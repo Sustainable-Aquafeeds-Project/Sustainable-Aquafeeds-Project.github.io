@@ -1,9 +1,10 @@
 ---
-title: "Next-generation ensemble projections reveal higher climate risks for marine ecosystems"
+title: |
+  Next-generation ensemble projections reveal higher climate risks for marine ecosystems
 date: 10/21/2022
-categories: [Global change]
+categories: [global change]
 ---
 
 ![](tittensor-et-al2021.png)
 
-<https://www.nature.com/articles/s41558-021-01173-9>
+Access the article [**here**](https://doi.org/10.1038/s41558-021-01173-9).

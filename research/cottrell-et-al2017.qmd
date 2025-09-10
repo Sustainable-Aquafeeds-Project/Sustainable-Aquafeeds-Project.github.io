@@ -1,9 +1,9 @@
 ---
 title: "Considering land–sea interactions and trade-offs for food and biodiversity"
 date: 08/21/2017
-categories: [Environmental impacts, Global change]
+categories: [environmental impacts, global change]
 ---
 
 ![](cottrell-et-al2017.png)
 
-[**https://doi.org/10.1111/gcb.13873**](https://doi.org/10.1111/gcb.13873)
+Access the article [**here**](https://doi.org/10.1111/gcb.13873).
