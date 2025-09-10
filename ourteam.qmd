@@ -3,7 +3,12 @@ editor: visual
 about: marquee
 page-layout: full
 tbl-colwidths: [25,25,25,25]
+pagetitle: Our Team | Sustainable Aquafeeds Project
+description-meta: |
+    Our team of researchers, partner investigators and posdoctoral candidates. 
 ---
+
+# Our Team {style="text-align: center;"}
 
 +:--------------------------------------------------------------------------------------:+:----------------------------------------------------------------------:+:----------------------------------------------------------------------:+:-------------------------------------------------------------------------:+
 | ![](photos/People/Julia-Blanchard-w-SRL.jpeg)                                          | ![](photos/People\Tormey-pic.jpg)                                      | ![](photos/People/Louise-Adams.jpeg)                                   | ![](photos/People/John%20photo%202019.jpeg)                               |
