@@ -11,51 +11,47 @@ description-meta: |
 ![](photos/stock_images/banner-lowres.jpg){.banner fig-align="center"}
 :::
 
-::: {#overview .column-body style="text-align: center; margin: 1em"}
-## **New tools to optimise feeds in support of ecosystem-based aquaculture** {style="text-align: center;  margin: 0.5em"}
+::: {#overview .column-body style="text-align: center; margin: 1em; font-size: 3em;"}
+# New tools to optimise feeds in support of ecosystem-based aquaculture
 :::
 
 ::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
-<p>Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing raw materials used in aquaculture feeds.</p>
+Our project aims to develop a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing raw materials used in aquaculture feeds.
 :::
 
-::: {style="margin:1.5em"}
-## **Why are aquafeeds important?** {style="text-align: center"}
-:::
-
-##  {style="text-align: center"}
-
-::: {.responsive-img layout-ncol="2" style="text-align: center;  margin: 1.5em"}
+::: {.responsive-img layout-ncol="2" style="margin: 0em; padding: 0em;"}
 ![](photos/feed-pellets-small%20(1).jpeg){.responsive-img fig-align="center" width="750"}
 
 ![](photos/feed-throw_small%20(1).jpeg){.responsive-img fig-align="center" width="750"}
 :::
 
-:::: {style="margin:1.5em"}
-::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
+::: {style="margin-top: 1.5em; text-align: center"}
+## Why are aquafeeds important?
+:::
+
+::: {style="text-align: center;  margin: 1.5em; font-size: 1.25em"}
 Aquaculture currently produces over half of all fish consumed by humans and is an important sector for future food security. Over 70% of animal aquaculture is dependent on human-made 'aquafeeds' which can account for the majority of environmental impacts in the life-cycle of farmed fish. Aquafeeds thus present a key lever for improving the sustainability of the aquaculture sector.
 :::
-::::
 
-## **What are aquafeeds made from?** {style="text-align: center;  margin: 1.5em"}
-
-::: {.responsive-img layout-ncol="2" style="margin: 1.5em"}
+::: {.responsive-img layout-ncol="2" style="margin: 0em;"}
 ![](photos/stock_images/soy_small.jpg){.responsive-img fig-align="center" width="750"}
 
 ![](photos/stock_images/foragefish_small.jpg){.responsive-img fig-align="center" width="750"}
 :::
 
-::: {style="text-align: center;  margin: 1.5em; font-size: 1.5em"}
-</p>
+::: {style="margin-top: 1.5em; text-align: center"}
+## What are aquafeeds made from?
+:::
 
+::: {style="text-align: center;  margin: 1.5em; font-size: 1.25em"}
 Aquafeeds are manufactured using a large range of ingredients and raw materials, from crop, fish and livestock products and byproducts, to insects and single-celled organisms. Feed composition has changed dramatically in recent years and continues to evolve as resource availabilty changes. Yet, comprehensive understanding of the environmental implications of feed composition changes is lacking.
 
 We are working towards a more holistic understanding of environmental pressures (greenhouse gas emissions, water extraction, nutrient pollution, habitat disturbance) from feed production and how these translate to impacts (e.g. biodiversity, ecosystem function) at local and global scales.
-
-</p>
 :::
 
-## PROJECT PARTNERS {style="text-align: center;  margin: 1.5em"}
+::: {style="margin-top: 1.5em; text-align: center"}
+## Project partners
+:::
 
 ::: column-screen
 ![](photos/logos/Logos_stitched_v2.jpeg){.responsive-img}
