@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-marquee content column-page">
+<div class="quarto-about-marquee column-page">
   <div class="about-image-container">
   </div>
   <div class="about-contents">
@@ -146,10 +146,10 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: center;"><p><img src="photos/People/Julia-Blanchard-w-SRL.jpeg" class="img-fluid"></p>
 <p><a href="https://discover.utas.edu.au/Julia.Blanchard"><strong>Prof Julia Blanchard</strong></a></p>
-<p>Chief Investigator, Project lead</p>
+<p>Chief Investigator, project lead</p>
 <p>Institute for Marine and Antarctic Studies, University of Tasmania</p></td>
-<td style="text-align: center;"><p><img src="photos/People/2022-05-07 10.38.19.jpeg" class="img-fluid"></p>
-<p><a href="https://discover.utas.edu.au/RichardStuart.Cottrell"><strong>Dr Rich Cottrell</strong></a></p>
+<td style="text-align: center;"><p><img src="photos/People\Tormey-pic.jpg" class="img-fluid"></p>
+<p><strong>Dr Tormey Reimer</strong></p>
 <p>Postdoctoral Research Fellow, project co-lead</p>
 <p>Institute for Marine and Antarctic Studies, University of Tasmania</p></td>
 <td style="text-align: center;"><p><img src="photos/People/Louise-Adams.jpeg" class="img-fluid"></p>
@@ -175,26 +175,35 @@ ul.task-list li input[type="checkbox"] {
 <p>Partner Investigator</p>
 <p>University of California, Santa Barbara</p></td>
 <td style="text-align: center;"><p><img src="photos/People/Catriona Website shot.jpeg" class="img-fluid"></p>
-<p><a href="https://discover.utas.edu.au/Catriona.Macleod">Prof Catriona McLeod</a></p>
+<p><a href="https://discover.utas.edu.au/Catriona.Macleod"><strong>Prof Catriona McLeod</strong></a></p>
 <p>Chief Investigator</p>
 <p>Institute for Marine and Antarctic Studies, University of Tasmania</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p><img src="photos/People/Beth Penrose.jpeg" class="img-fluid"></p>
-<p><strong>Dr Beth Penrose</strong></p>
+<p><a href="https://discover.utas.edu.au/Beth.Penrose"><strong>Dr Beth Penrose</strong></a></p>
 <p>Partner Investigator</p>
 <p>Charles Darwin University</p></td>
 <td style="text-align: center;"><p><img src="photos/People/Karen October 23.jpeg" class="img-fluid"></p>
-<p><strong>Dr Karen Alexander</strong></p>
+<p><a href="https://discover.utas.edu.au/Karen.Alexander"><strong>Dr Karen Alexander</strong></a></p>
 <p>International Collaborator</p>
 <p>Heriot Watt University</p></td>
 <td style="text-align: center;"><p><img src="photos/People/IMG_9947.jpeg" class="img-fluid"></p>
-<p><strong>Dr Scott Hadley</strong></p>
+<p><a href="https://discover.utas.edu.au/s.hadley"><strong>Dr Scott Hadley</strong></a></p>
 <p>Research Collaborator</p>
 <p>University of Tasmania</p></td>
-<td style="text-align: center;"><p><strong>Dr Camille White</strong></p>
+<td style="text-align: center;"><p><img src="photos/People\camille_small.jpg" class="img-fluid"></p>
+<p><a href="https://discover.utas.edu.au/camille.white"><strong>Dr Camille White</strong></a></p>
 <p>Research Collaborator</p>
 <p>University of Tasmania</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><p><img src="photos/People/2022-05-07 10.38.19.jpeg" class="img-fluid"></p>
+<p><strong>Dr Rich Cottrell</strong></p>
+<p>Former project co-lead</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
@@ -308,18 +317,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -351,7 +349,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -359,7 +379,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
