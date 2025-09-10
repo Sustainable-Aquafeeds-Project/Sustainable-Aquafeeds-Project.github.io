@@ -1,9 +1,9 @@
 ---
 title: "Environmental footprints of farmed chicken and salmon bridge the land and sea"
 date: 03/13/2023
-categories: [environmental impacts, food systems]
+categories: [Environmental impacts,food systems]
 ---
 
 ![](kuempel-et-al.jpg)
 
-Access the article [here](https://www.sciencedirect.com/science/article/pii/S0960982223000714).
+<https://www.sciencedirect.com/science/article/pii/S0960982223000714> 

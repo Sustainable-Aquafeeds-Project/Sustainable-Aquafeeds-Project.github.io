@@ -1,9 +1,9 @@
 ---
 title: "Towards a nutritional balance of fish for feed and fish for food"
 date: 03/24/2024
-categories: [global change, food systems, environmental impacts]
+categories: [Global change, Food systems, Environmental impacts]
 ---
 
 ![](rich-et-al-2024.png)
 
-Access the article [here](https://doi.org/10.1038/s43016-024-00933-y).
+Access the article [here](https://doi.org/10.1038/s43016-024-00933-y)

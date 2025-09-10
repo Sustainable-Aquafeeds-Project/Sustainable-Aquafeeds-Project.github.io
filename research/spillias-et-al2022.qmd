@@ -6,4 +6,4 @@ categories: [food systems]
 
 ![](spillias-et-al2022.jpg)
 
-Access the article [here](https://doi.org/10.1016/j.jclepro.2022.133052).
+<https://doi.org/10.1016/j.jclepro.2022.133052>

@@ -1,9 +1,9 @@
 ---
 title: "Vulnerability of blue foods to human-induced environmental change"
 date: 06/26/2023
-categories: [global change, food systems]
+categories: [Global change, Food systems]
 ---
 
 ![](Cao-et-al.png){fig-align="center"}
 
-Access the article [here](https://www.nature.com/articles/s41893-023-01156-y).
+<https://www.nature.com/articles/s41893-023-01156-y> 

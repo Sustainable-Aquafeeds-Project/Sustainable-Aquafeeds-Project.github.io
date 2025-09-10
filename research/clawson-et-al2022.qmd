@@ -1,9 +1,9 @@
 ---
 title: "Mapping the spatial distribution of global mariculture production"
 date: 05/15/2022
-categories: [global change, food systems]
+categories: [Global change, Food systems]
 ---
 
 ![](clawson-et-al2022.jpg)
 
-Access the article [here](https://doi.org/10.1016/j.aquaculture.2022.738066).
+<https://doi.org/10.1016/j.aquaculture.2022.738066>
