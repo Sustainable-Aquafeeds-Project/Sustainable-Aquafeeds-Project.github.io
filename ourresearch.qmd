@@ -1,19 +1,22 @@
 ---
 pagetitle: Our Research | Sustainable Aquafeeds Project
 description-meta: |
-    Key publications from our team members, partners and collaborators. 
+    Key publications from our team members, partners and collaborators.
+
 page-layout: full
 grid:
   sidebar-width: 100px
-  body-width: 1250px
+  body-width: 1300px
   margin-width: 250px
   gutter-width: 1.5rem
-editor: source
+
 listing: 
   contents: research
   type: grid
   sort: "date desc" 
   categories: true
+image-placeholder: photos/stock_images/shutterstock_fishpens_dark.jpg
+editor: source
 ---
 
 # Key publications from our team members, partners and collaborators {.text-center style="margin: 1em; font-size: 1.5em"}
