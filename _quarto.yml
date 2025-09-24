@@ -10,7 +10,7 @@ website:
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "Sustainable aquafeeds project"
-    logo-href: /home.html 
+    # logo-href: /home.html 
     collapse-below: lg
     right:
       - text: Home
