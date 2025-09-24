@@ -1,7 +1,6 @@
 ---
 editor: source
 page-layout: custom
-format: html
 pagetitle: Home | Sustainable Aquafeeds Project
 description-meta: |
     Developing a new interdisciplinary sustainability assessment framework to improve our understanding of the consequences of changing raw materials used in aquaculture feeds.
@@ -53,6 +52,24 @@ We are working towards a more holistic understanding of environmental pressures 
 ## Project partners
 :::
 
-::: column-screen
-![](photos/logos/Logos_stitched_v2.jpeg){.responsive-img}
+::: {.grid .justify-content-space-evenly .align-items-center .text-center .m-4 .py-1 .column-screen style="--bs-columns: 10;"}
+:::::: {.g-col-5 .g-col-md-2 .m-2 .p-0}
+![](photos/logos/UniTas_IMAS_P_Pos_Col_RGB_2021.jpeg)
+:::::: 
+
+:::::: {.g-col-5 .g-col-md-2 .m-2 .p-0}
+![](photos/logos/TAB_col_white_background.png)
+:::::: 
+
+:::::: {.g-col-5 .g-col-md-2 .m-2 .p-0}
+![](photos/logos/cdu_logo_og_cropped.jpeg)
+:::::: 
+
+:::::: {.g-col-5 .g-col-md-2 .m-2 .p-0}
+![](photos/logos/UC_Santa_Barbara_Seal.png)
+:::::: 
+
+:::::: {.g-col-5 .g-col-md-2 .m-2 .p-0}
+![](photos/logos/biomar_logo_2023.png)
+:::::: 
 :::
