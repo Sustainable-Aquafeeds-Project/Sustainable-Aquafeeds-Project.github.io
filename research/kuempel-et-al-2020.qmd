@@ -1,11 +1,16 @@
 ---
 title: |
   Integrating Life Cycle and Impact Assessments to Map Food's Cumulative Environmental Footprint
+subtitle: |
+  Caitlin D. Kuempel, Melanie Frazier, Kirsty L. Nash, Nis Sand Jacobsen, David R. Williams, Julia L. Blanchard, Richard S. Cottrell, Peter B. McIntyre, Daniel Moran, Lex Bouwman, Halley E. Froehlich, Jessica A. Gephart, Marc Metian, Johannes Többen, Benjamin S. Halpern
 date: 07/24/2020
 categories: [environmental impacts, food systems, LCA]
 editor: source
+image: thumbnails/kuempel-et-al-2020.jpg
 ---
 
-![](kuempel-et-al-2020.jpg)
+Feeding a growing, increasingly affluent population while limiting environmental pressures of food production is a central challenge for society. Understanding the location and magnitude of food production is key to addressing this challenge because pressures vary substantially across food production types. Applying data and models from life cycle assessment with the methodologies for mapping cumulative environmental impacts of human activities (hereafter cumulative impact mapping) provides a powerful approach to spatially map the cumulative environmental pressure of food production in a way that is consistent and comprehensive across food types. However, these methodologies have yet to be combined. By synthesizing life cycle assessment and cumulative impact mapping methodologies, we provide guidance for comprehensively and cumulatively mapping the environmental pressures (e.g., greenhouse gas emissions, spatial occupancy, and freshwater use) associated with food production systems. This spatial approach enables quantification of current and potential future environmental pressures, which is needed for decision makers to create more sustainable food policies and practices.
 
-Access the article [**here**](https://doi.org/10.1016/j.oneear.2020.06.014).
+Access the article [**here**](https://doi.org/10.1016/j.oneear.2020.06.014){.external target="_blank"}.
+
+![](images/kuempel-et-al-2020.jpg){fig-align="center"}
