@@ -3,14 +3,21 @@ project:
   output-dir: docs
   resources: 
     - CNAME
+
+editor: source
+
+format:
+  html:
+    theme: 
+      - lux
+      - custom.scss
+    
 website:
-  #title: "Feed"
   image: "SAP_website-image_TRANSPARENT.png"
   favicon: "SAP_website_favicon.png"
   navbar: 
     logo: "SAP_website-image_TRANSPARENT.png"
     logo-alt: "Sustainable aquafeeds project"
-    # logo-href: /home.html 
     collapse-below: lg
     right:
       - text: Home
@@ -36,10 +43,3 @@ website:
       right: |
         <br>Built using [Quarto](https://quarto.org/)
    #   [Terms & Conditions](/ts-and-cs.qmd)    
-format:
-  html:
-    theme: [lux,custom.scss]
-    #css: style.css
-    
-editor: source
-

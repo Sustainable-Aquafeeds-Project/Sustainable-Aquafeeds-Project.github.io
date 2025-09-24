@@ -28,8 +28,8 @@ $yellow:  #f0ad4e !default;
 $green:   #4bbf73 !default;
 $teal:    #20c997 !default;
 $cyan:    #1f9bcf !default;
-$sblue: #658C9F !default;
-$sblue2: #094867 !default; 
+$sblue:   #658C9F !default;
+$sblue2:  #094867 !default; 
 
 // changed from grey to black 
 $primary:       $sblue2 !default; 
@@ -329,6 +329,7 @@ th {
 }
 
 // Stop cards on research page from capitalising long titles and tags
+
 .list-group-item h1,.list-group-item h2,.list-group-item h3,.list-group-item h4,.list-group-item h5,.list-group-item h6,.list-group-item .h1,.list-group-item .h2,.list-group-item .h3,.list-group-item .h4,.list-group-item .h5,.list-group-item .h6,.card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card .h1,.card .h2,.card .h3,.card .h4,.card .h5,.card .h6 {
     text-transform: none;
 }
