@@ -1,7 +1,7 @@
 ---
 pagetitle: Our Research | Sustainable Aquafeeds Project
 description-meta: |
-    Key publications from our team members, partners and collaborators.
+  Key publications from our team members, partners and collaborators
 
 page-layout: full
 grid:
@@ -19,4 +19,4 @@ image-placeholder: photos/stock_images/shutterstock_fishpens_dark.jpg
 editor: source
 ---
 
-# Key publications from our team members, partners and collaborators {.text-center style="margin: 1em; font-size: 1.5em"}
+# Key publications from our team members, partners and collaborators {.text-center style="margin: 1.5em; font-size: 1.5em"}
