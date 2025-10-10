@@ -7,6 +7,13 @@ date: 09/10/2019
 categories: [food systems]
 editor: source
 image: thumbnails/halpern-et-al-2019.jpeg
+
+page-layout: full
+grid:
+  sidebar-width: 100px
+  body-width: 1300px
+  margin-width: 250px
+  gutter-width: 1.5rem
 ---
 
 Improving global food systems is essential to addressing climate change, mitigating biodiversity loss, and meeting both sustainability and human development goals. International assessments from the Intergovernmental Panel on Climate Change and Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services and business and technology innovations such as lab-grown and plant-based meat, as well as many consumer diet trends, can all be traced to studies that identify undesirable impacts of certain food systems. Yet the evidence underpinning many widely touted recommendations about what to grow and eat is remarkably sparse and generally biased.

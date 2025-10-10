@@ -7,6 +7,13 @@ date: 03/24/2024
 categories: [global change, food systems, environmental impacts, aquaculture, fisheries]
 editor: source
 image: thumbnails/cottrell-et-al-2024.png
+
+page-layout: full
+grid:
+  sidebar-width: 100px
+  body-width: 1300px
+  margin-width: 250px
+  gutter-width: 1.5rem
 ---
 
 Wild forage fish can provide nutrients essential for human health, yet some nutrients may be lost when forage fish are used as aquafeeds. Reallocating a third of food-grade forage fish towards direct human consumption can optimize seafood systems to deliver dietary nutrients for feed and food at different scales.

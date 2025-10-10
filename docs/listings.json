@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/blogs/growthexperiment.html",
-      "/blogs/launcestonupdate.html",
-      "/blogs/AMSA2023.html",
-      "/blogs/WAS2023.html",
-      "/blogs/WAS2022.html",
-      "/blogs/Nov2022workshop.html"
-    ]
-  },
-  {
     "listing": "/ourresearch.html",
     "items": [
       "/research/cottrell-et-al-2025.html",
@@ -36,6 +25,17 @@
       "/research/blanchard-et-al-2017.html",
       "/research/cottrell-et-al-2017.html",
       "/research/merino-et-al-2012.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/blogs/growthexperiment.html",
+      "/blogs/launcestonupdate.html",
+      "/blogs/AMSA2023.html",
+      "/blogs/WAS2023.html",
+      "/blogs/WAS2022.html",
+      "/blogs/Nov2022workshop.html"
     ]
   }
 ]
