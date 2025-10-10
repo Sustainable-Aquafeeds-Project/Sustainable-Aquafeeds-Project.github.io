@@ -1,0 +1,23 @@
+---
+title: |
+  The origins of aquaculture feed ingredients matter more than composition for aquafeed environmental footprint assessments
+subtitle: |
+  Richard S. Cottrell, Benjamin S. Halpern, Marceau Cormery, Helen A. Hamilton, Gage Clawson, Beth Penrose, Louise Adams, John P. Bowman, Duncan D. Cameron, Chris G. Carter, Tom Fox-Smith, Scott Hadley, Alexandra Johne, Catriona Macleod, Sowdamini Sesha Prasad, Xintong Qiu, Camille A. White, Xin Zhan Julia L. Blanchard
+date: 10/07/2025
+categories: [food systems, environmental impacts, aquaculture, LCA]
+editor: source
+image: thumbnails/cottrell-et-al-2025.png
+
+page-layout: full
+grid:
+  sidebar-width: 100px
+  body-width: 1300px
+  margin-width: 250px
+  gutter-width: 1.5rem
+---
+
+The net environmental implications of shifting aquaculture feed provisioning from wild-caught fishmeal to crop-based ingredients remain understudied, with little attention paid to multiple environmental pressures or the importance of where ingredients are sourced from. Here we model the change in environmental footprint (a cumulative and spatial measure of greenhouse gas emissions, habitat disturbance, excess nutrient and water consumption pressures) of shifting dependence from largely fish-based to plant-based ingredients in feeds for Atlantic salmon farming. We show that average differences exist between feeds in their cumulative and individual environmental pressures, but more importantly, the locations where feed raw materials are produced and processed drives far more variability in footprint within a feed than the typical variation between feeds. We demonstrate that responsible sourcing will be critical for sustainable feed production across all farming systems as the next generation of ingredients is developed.
+
+Access the article [**here**](https://doi.org/10.1038/s43016-025-01236-6){.external target="_blank"}.
+
+![](images/cottrell-et-al-2025.png){fig-align="center"}
