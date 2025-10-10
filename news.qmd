@@ -1,8 +1,23 @@
 ---
-editor: source
+pagetitle: News & Blog | Sustainable Aquafeeds Project
+description-meta: |
+  Latest events, conferences, and workshops.
+
+page-layout: full
+grid:
+  sidebar-width: 100px
+  body-width: 1300px
+  margin-width: 250px
+  gutter-width: 1.5rem
+
 listing: 
   contents: blogs
   type: grid
   sort: "date desc" 
   categories: true
+
+editor: source
 ---
+
+# News & Blog {.text-center style="margin: 1.5em; font-size: 1.5em"}
+
