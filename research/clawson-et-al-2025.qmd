@@ -1,0 +1,23 @@
+---
+title: |
+  Continued transitions from fish meal and oil in aquafeeds require close attention to habitat impact trade-offs
+subtitle: |
+  Gage Clawson, Julia L. Blanchard, Marceau Cormery, Beth Fulton, Benjamin S. Halpern, Helen A. Hamilton, Casey C. O'Hara, Richard S. Cottrell
+date: 07/23/2025
+categories: [food systems, aquaculture, aquafeed development, biodiversity]
+editor: source
+image: thumbnails/clawson-et-al-2025.png
+
+page-layout: full
+grid:
+  sidebar-width: 100px
+  body-width: 1300px
+  margin-width: 250px
+  gutter-width: 1.5rem
+---
+
+Aquaculture is a growing industry crucial to global food security, but its biodiversity impact, particularly from feed production, remains poorly understood. We present a new spatial approach to quantify the habitat loss associated with the production of animal feeds, using Atlantic salmon aquaculture as a case study. We examine habitat impacts for over 50,000 marine and terrestrial species from producing feeds for global Atlantic salmon production under two feed scenarios. To reduce historical wild fish use in feeds, salmon aquaculture has increased its reliance on agricultural inputs. We show how this shift can disproportionately increase impacts for terrestrial species and highlight how careful decisions about feed sourcing are imperative to curb biodiversity impacts. As global demand for seafood continues to rise, these methods and findings can guide policymakers and industry stakeholders toward more informed decisions to improve aquaculture sustainability.
+
+Access the article [**here**](https://doi.org/10.1016/j.crsus.2025.100457){.external target="_blank"}.
+
+![](images/clawson-et-al-2024.png){fig-align="center"}
