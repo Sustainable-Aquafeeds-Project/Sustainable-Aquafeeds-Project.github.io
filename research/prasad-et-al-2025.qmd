@@ -7,6 +7,7 @@ date: 09/15/2025
 categories: [nutrition, aquaculture, lobster]
 editor: source
 image: thumbnails/prasad-et-al-2025.jpeg
+featured: false
 
 page-layout: full
 grid:

@@ -7,6 +7,7 @@ date: 03/24/2024
 categories: [global change, food systems, environmental impacts, aquaculture, fisheries]
 editor: source
 image: thumbnails/cottrell-et-al-2024.png
+featured: true
 
 page-layout: full
 grid:

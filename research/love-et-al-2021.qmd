@@ -7,6 +7,7 @@ date: 03/03/2021
 categories: [global change, food systems, COVID-19]
 editor: source
 image: thumbnails/love-et-al-2021.jpg
+featured: false
 
 page-layout: full
 grid:

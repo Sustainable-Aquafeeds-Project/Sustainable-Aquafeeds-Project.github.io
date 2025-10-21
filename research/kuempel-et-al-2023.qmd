@@ -7,6 +7,7 @@ date: 03/13/2023
 categories: [environmental impacts, food systems, aquaculture]
 editor: source
 image: thumbnails/kuempel-et-al-2023.jpg
+featured: false
 
 page-layout: full
 grid:

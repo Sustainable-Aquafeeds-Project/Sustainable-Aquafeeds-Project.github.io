@@ -7,6 +7,7 @@ date: 02/08/2021
 categories: [aquafeed development, policy]
 editor: source
 image: thumbnails/cottrell-et-al-2021.jpeg
+featured: false
 
 page-layout: full
 grid:

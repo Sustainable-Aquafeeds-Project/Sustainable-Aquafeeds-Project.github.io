@@ -7,6 +7,7 @@ date: 01/26/2023
 categories: [global change, environmental impacts, seaweed farming]
 editor: source
 image: thumbnails/spillas-et-al-2023.png
+featured: false
 
 page-layout: full
 grid:

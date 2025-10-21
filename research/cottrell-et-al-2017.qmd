@@ -7,6 +7,7 @@ date: 08/21/2017
 categories: [environmental impacts, global change, biodiversity]
 editor: source
 image: thumbnails/cottrell-et-al-2017.png
+featured: false
 
 page-layout: full
 grid:

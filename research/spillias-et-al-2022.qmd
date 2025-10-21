@@ -7,6 +7,7 @@ date: 09/25/2022
 categories: [food systems, seaweed farming]
 editor: source
 image: thumbnails/spillias-et-al-2022.jpg
+featured: false
 
 page-layout: full
 grid:

@@ -7,6 +7,7 @@ date: 07/06/2023
 categories: [aquafeed development, aquaculture]
 editor: source
 image: thumbnails/johne-et-al-2023.png
+featured: false
 
 page-layout: full
 grid:
