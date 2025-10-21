@@ -68,16 +68,16 @@ description-meta: |
 
 ## Postgraduates {.text-center}
 
-+:-------------------------------------:+:------------------------------:+:---------------:+:-------------------------------------------------:+
-| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | **Xintong Qiu** | ![](photos/People/Inspiring_women_2022_0370.jpeg) |
-|                                       |                                |                 |                                                   |
-| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | PhD candidate   | **Sowdamini Sesha Prasad**                        |
-|                                       |                                |                 |                                                   |
-| PhD candidate                         | PhD candidate                  |                 | PhD candidate                                     |
-+---------------------------------------+--------------------------------+-----------------+---------------------------------------------------+
-| ![](photos/People/Xin%20Zhan.jpeg)    |                                |                 |                                                   |
-|                                       |                                |                 |                                                   |
-| **Xin Zhan (Kathy)**                  |                                |                 |                                                   |
-|                                       |                                |                 |                                                   |
-| PhD candidate                         |                                |                 |                                                   |
-+---------------------------------------+--------------------------------+-----------------+---------------------------------------------------+
++:-------------------------------------:+:------------------------------:+:----------------------------------:+:-------------------------------------------------:+
+| ![](photos/People/gage_headshot.jpeg) | ![](photos/People/AJohne.jpeg) | ![](photos/People/placeholder.jpg) | ![](photos/People/Inspiring_women_2022_0370.jpeg) |
+|                                       |                                |                                    |                                                   |
+| **Samuel (Gage) Clawson**             | **Alexandra (Alex) Johne**     | **Xintong Qiu**                    | **Sowdamini Sesha Prasad**                        |
+|                                       |                                |                                    |                                                   |
+| PhD candidate                         | PhD candidate                  | PhD candidate                      | PhD candidate                                     |
++---------------------------------------+--------------------------------+------------------------------------+---------------------------------------------------+
+| ![](photos/People/Xin%20Zhan.jpeg)    |                                |                                    |                                                   |
+|                                       |                                |                                    |                                                   |
+| **Xin Zhan (Kathy)**                  |                                |                                    |                                                   |
+|                                       |                                |                                    |                                                   |
+| PhD candidate                         |                                |                                    |                                                   |
++---------------------------------------+--------------------------------+------------------------------------+---------------------------------------------------+
