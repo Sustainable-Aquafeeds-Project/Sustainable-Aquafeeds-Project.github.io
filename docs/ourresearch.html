@@ -75,7 +75,35 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-featured-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-listing'] = new List('listing-featured-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-all-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -89,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-all-listing'] = new List('listing-all-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -203,23 +231,18 @@ window.Quarto = {
 
 
 
-<section id="key-publications-from-our-team-members-partners-and-collaborators" class="level1 text-center" style="margin: 1.5em; font-size: 1.5em">
-<h1 class="text-center" style="margin: 1.5em; font-size: 1.5em">Key publications from our team members, partners and collaborators</h1>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="outputs-from-the-sustainable-aquafeeds-project" class="level1 text-center">
+<h1 class="text-center">Outputs from the Sustainable Aquafeeds project</h1>
+<div id="listing-featured-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDTENB" data-listing-date-sort="1759755600000" data-listing-file-modified-sort="1760062670680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="g-col-1" data-index="0" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDTENB" data-listing-date-sort="1759755600000" data-listing-file-modified-sort="1761029060380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <a href="./research/cottrell-et-al-2025.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/thumbnails/cottrell-et-al-2025.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="outputs-from-the-sustainable-aquafeeds-project">
 The origins of aquaculture feed ingredients matter more than composition for aquafeed environmental footprint assessments
 </h5>
 <div class="listing-categories">
@@ -247,40 +270,7 @@ Oct 7, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNsb2JzdGVy" data-listing-date-sort="1757858400000" data-listing-file-modified-sort="1760062908256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<a href="./research/prasad-et-al-2025.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/thumbnails/prasad-et-al-2025.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Geometric stoichiometry model yields relevant insights for assessing nutrient-related environmental impacts of aquaculture
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bG9ic3Rlcg=='); return false;">lobster</div>
-
-</div>
-<div class="card-text listing-description delink">
-Aquaculture plays a crucial role in global food security and is being increasingly used to aid species and ecosystem conservation. However, concerns over environmental…<em></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 15, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2FxdWFmZWVkJTIwZGV2ZWxvcG1lbnQlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1753192800000" data-listing-file-modified-sort="1760062235717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="g-col-1" data-index="1" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2FxdWFmZWVkJTIwZGV2ZWxvcG1lbnQlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1753192800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
 <a href="./research/clawson-et-al-2025.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -315,40 +305,7 @@ Jul 23, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNzYWxtb24=" data-listing-date-sort="1749650400000" data-listing-file-modified-sort="1760062885552" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
-<a href="./research/zhan-et-al-2025.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/thumbnails/zhan-et-al-2025.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Factors influencing the mineral composition of Atlantic salmon (<em>Salmo salar</em>) for human consumption: insights for nutrition and aquaculture practices
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2FsbW9u'); return false;">salmon</div>
-
-</div>
-<div class="card-text listing-description delink">
-Atlantic salmon (<em>Salmo salar</em>) is valued for its nutritional benefits, but understanding of its mineral content remains limited. This synthesis compiles data from 107 studies…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jun 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1711198800000" data-listing-file-modified-sort="1760062876791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="2" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1711198800000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
 <a href="./research/cottrell-et-al-2024.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -385,7 +342,81 @@ Mar 24, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1688565600000" data-listing-file-modified-sort="1760062787700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="key-publications-from-our-team-members-partners-and-collaborators" class="level1 text-center">
+<h1 class="text-center">Key publications from our team members, partners and collaborators</h1>
+<div id="listing-all-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNsb2JzdGVy" data-listing-date-sort="1757858400000" data-listing-file-modified-sort="1761029060386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
+<a href="./research/prasad-et-al-2025.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./research/thumbnails/prasad-et-al-2025.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="key-publications-from-our-team-members-partners-and-collaborators">
+Geometric stoichiometry model yields relevant insights for assessing nutrient-related environmental impacts of aquaculture
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bG9ic3Rlcg=='); return false;">lobster</div>
+
+</div>
+<div class="card-text listing-description delink">
+Aquaculture plays a crucial role in global food security and is being increasingly used to aid species and ecosystem conservation. However, concerns over environmental…<em></em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sep 15, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNzYWxtb24=" data-listing-date-sort="1749650400000" data-listing-file-modified-sort="1761029060389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+<a href="./research/zhan-et-al-2025.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./research/thumbnails/zhan-et-al-2025.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Factors influencing the mineral composition of Atlantic salmon (<em>Salmo salar</em>) for human consumption: insights for nutrition and aquaculture practices
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2FsbW9u'); return false;">salmon</div>
+
+</div>
+<div class="card-text listing-description delink">
+Atlantic salmon (<em>Salmo salar</em>) is valued for its nutritional benefits, but understanding of its mineral content remains limited. This synthesis compiles data from 107 studies…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jun 12, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1688565600000" data-listing-file-modified-sort="1761029060382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
 <a href="./research/johne-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -416,7 +447,7 @@ Jul 6, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1687701600000" data-listing-file-modified-sort="1760062820669" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="g-col-1" data-index="3" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1687701600000" data-listing-file-modified-sort="1761029060375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <a href="./research/cao-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -447,7 +478,7 @@ Jun 26, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ1NER3M=" data-listing-date-sort="1683640800000" data-listing-file-modified-sort="1760062882010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
+<div class="g-col-1" data-index="4" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ1NER3M=" data-listing-date-sort="1683640800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
 <a href="./research/troell-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -482,7 +513,7 @@ May 10, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1760062845590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<div class="g-col-1" data-index="5" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
 <a href="./research/kuempel-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -515,7 +546,7 @@ Mar 13, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1674651600000" data-listing-file-modified-sort="1760062816046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<div class="g-col-1" data-index="6" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1674651600000" data-listing-file-modified-sort="1761029060387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <a href="./research/spillias-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -548,7 +579,7 @@ Jan 26, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cw==" data-listing-date-sort="1666530000000" data-listing-file-modified-sort="1760062808041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="7" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cw==" data-listing-date-sort="1666530000000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="./research/halpern-et-al2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -581,7 +612,7 @@ Oct 24, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHM=" data-listing-date-sort="1666270800000" data-listing-file-modified-sort="1760062832356" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="g-col-1" data-index="8" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHM=" data-listing-date-sort="1666270800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="./research/tittensor-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -612,7 +643,7 @@ Oct 21, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1664028000000" data-listing-file-modified-sort="1760062836631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="g-col-1" data-index="9" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1664028000000" data-listing-file-modified-sort="1761029060386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <a href="./research/spillias-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -643,7 +674,7 @@ Sep 25, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZQ==" data-listing-date-sort="1652536800000" data-listing-file-modified-sort="1760062828486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="g-col-1" data-index="10" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZQ==" data-listing-date-sort="1652536800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <a href="./research/clawson-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -676,7 +707,7 @@ May 15, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1640955600000" data-listing-file-modified-sort="1760062868704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="g-col-1" data-index="11" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1640955600000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <a href="./research/cottrell-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -707,7 +738,7 @@ Jan 1, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1614690000000" data-listing-file-modified-sort="1760062792885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="g-col-1" data-index="12" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1614690000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
 <a href="./research/love-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -740,7 +771,7 @@ Mar 3, 2021
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ3BvbGljeQ==" data-listing-date-sort="1612702800000" data-listing-file-modified-sort="1760062861684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+<div class="g-col-1" data-index="13" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ3BvbGljeQ==" data-listing-date-sort="1612702800000" data-listing-file-modified-sort="1761029060378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
 <a href="./research/cottrell-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -771,7 +802,7 @@ Feb 8, 2021
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ0xDQQ==" data-listing-date-sort="1595512800000" data-listing-file-modified-sort="1760062849430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="g-col-1" data-index="14" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ0xDQQ==" data-listing-date-sort="1595512800000" data-listing-file-modified-sort="1761029060383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
 <a href="./research/kuempel-et-al-2020.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -804,11 +835,11 @@ Jul 24, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDYXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1589810400000" data-listing-file-modified-sort="1760062864895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="15" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDYXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1589810400000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="./research/cottrell-et-al-2020.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./research/thumbnails/cottrell-et-al-2020.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./research/thumbnails/cottrell-et-al-2020.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -839,11 +870,11 @@ May 19, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="Zm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1568037600000" data-listing-file-modified-sort="1760062853230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="g-col-1" data-index="16" data-categories="Zm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1568037600000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
 <a href="./research/halpern-et-al-2019.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./research/thumbnails/halpern-et-al-2019.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./research/thumbnails/halpern-et-al-2019.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -868,11 +899,11 @@ Sep 10, 2019
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDYWdyaWN1bHR1cmU=" data-listing-date-sort="1503324000000" data-listing-file-modified-sort="1760062802736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<div class="g-col-1" data-index="17" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDYWdyaWN1bHR1cmU=" data-listing-date-sort="1503324000000" data-listing-file-modified-sort="1761029060374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <a href="./research/blanchard-et-al-2017.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./research/thumbnails/blanchard-et-al-2017.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./research/thumbnails/blanchard-et-al-2017.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -905,7 +936,7 @@ Aug 22, 2017
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNnbG9iYWwlMjBjaGFuZ2UlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1503237600000" data-listing-file-modified-sort="1760062872908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="g-col-1" data-index="18" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNnbG9iYWwlMjBjaGFuZ2UlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1503237600000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <a href="./research/cottrell-et-al-2017.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -938,7 +969,7 @@ Aug 21, 2017
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2Zpc2hlcmllcyUyQ2NsaW1hdGUlMjBjaGFuZ2U=" data-listing-date-sort="1349787600000" data-listing-file-modified-sort="1760062841630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="g-col-1" data-index="19" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2Zpc2hlcmllcyUyQ2NsaW1hdGUlMjBjaGFuZ2U=" data-listing-date-sort="1349787600000" data-listing-file-modified-sort="1761029060385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <a href="./research/merino-et-al-2012.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -977,10 +1008,16 @@ Oct 10, 2012
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+<nav id="all-listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
