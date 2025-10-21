@@ -3,6 +3,25 @@ pagetitle: Our Research | Sustainable Aquafeeds Project
 description-meta: |
   Key publications from our team members, partners and collaborators
 
+listing:
+  - id: featured-listing
+    contents: 
+      - "research/*.qmd"
+    type: grid
+    sort: "date desc"
+    categories: true
+    include:
+      featured: true
+  
+  - id: all-listing
+    contents:
+      - "research/*.qmd"
+    type: grid
+    sort: "date desc"
+    categories: true
+    include:
+      featured: false
+
 page-layout: full
 grid:
   sidebar-width: 100px
