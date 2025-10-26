@@ -8,7 +8,10 @@ listing:
     contents: 
       - "research/*.qmd"
     type: grid
+    fields: [title, date, categories, image, description]
+    sort-ui: true
     sort: "date desc"
+    date-format: "YYYY"
     categories: true
     include:
       featured: true
@@ -17,7 +20,10 @@ listing:
     contents:
       - "research/*.qmd"
     type: grid
+    fields: [title, date, categories, image, description]
+    sort-ui: true
     sort: "date desc"
+    date-format: "YYYY"
     categories: true
     include:
       featured: false

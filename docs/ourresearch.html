@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-categories','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -110,9 +110,8 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      valueNames: ['listing-title','listing-date','listing-categories','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -234,8 +233,26 @@ window.Quarto = {
 <section id="outputs-from-the-sustainable-aquafeeds-project" class="level1 text-center">
 <h1 class="text-center">Outputs from the Sustainable Aquafeeds project</h1>
 <div id="listing-featured-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-featured-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-featured-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDTENB" data-listing-date-sort="1759755600000" data-listing-file-modified-sort="1761029060380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="g-col-1" data-index="0" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDTENB" data-listing-date-sort="1759755600000" data-listing-file-modified-sort="1761456711278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <a href="./research/cottrell-et-al-2025.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -259,18 +276,45 @@ The origins of aquaculture feed ingredients matter more than composition for aqu
 <div class="card-text listing-description delink">
 The net environmental implications of shifting aquaculture feed provisioning from wild-caught fishmeal to crop-based ingredients remain understudied, with little attention…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 7, 2025
+2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2FxdWFmZWVkJTIwZGV2ZWxvcG1lbnQlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1753192800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="g-col-1" data-index="1" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNsb2JzdGVy" data-listing-date-sort="1757858400000" data-listing-file-modified-sort="1761456822387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
+<a href="./research/prasad-et-al-2025.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./research/thumbnails/prasad-et-al-2025.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Geometric stoichiometry model yields relevant insights for assessing nutrient-related environmental impacts of aquaculture
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bG9ic3Rlcg=='); return false;">lobster</div>
+
+</div>
+<div class="card-text listing-description delink">
+Aquaculture plays a crucial role in global food security and is being increasingly used to aid species and ecosystem conservation. However, concerns over environmental…<em></em>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2FxdWFmZWVkJTIwZGV2ZWxvcG1lbnQlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1753192800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
 <a href="./research/clawson-et-al-2025.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -294,18 +338,45 @@ Continued transitions from fish meal and oil in aquafeeds require close attentio
 <div class="card-text listing-description delink">
 Aquaculture is a growing industry crucial to global food security, but its biodiversity impact, particularly from feed production, remains poorly understood. We present a…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 23, 2025
+2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1711198800000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="3" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNzYWxtb24=" data-listing-date-sort="1749650400000" data-listing-file-modified-sort="1761456817563" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+<a href="./research/zhan-et-al-2025.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./research/thumbnails/zhan-et-al-2025.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Factors influencing the mineral composition of Atlantic salmon (<em>Salmo salar</em>) for human consumption: insights for nutrition and aquaculture practices
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2FsbW9u'); return false;">salmon</div>
+
+</div>
+<div class="card-text listing-description delink">
+Atlantic salmon (<em>Salmo salar</em>) is valued for its nutritional benefits, but understanding of its mineral content remains limited. This synthesis compiles data from 107 studies…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1711198800000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
 <a href="./research/cottrell-et-al-2024.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -331,92 +402,15 @@ Towards a nutritional balance of fish for feed and fish for food
 <div class="card-text listing-description delink">
 Wild forage fish can provide nutrients essential for human health, yet some nutrients may be lost when forage fish are used as aquafeeds. Reallocating a third of food-grade…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Mar 24, 2024
+2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="key-publications-from-our-team-members-partners-and-collaborators" class="level1 text-center">
-<h1 class="text-center">Key publications from our team members, partners and collaborators</h1>
-<div id="listing-all-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNsb2JzdGVy" data-listing-date-sort="1757858400000" data-listing-file-modified-sort="1761029060386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<a href="./research/prasad-et-al-2025.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/thumbnails/prasad-et-al-2025.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="key-publications-from-our-team-members-partners-and-collaborators">
-Geometric stoichiometry model yields relevant insights for assessing nutrient-related environmental impacts of aquaculture
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bG9ic3Rlcg=='); return false;">lobster</div>
-
-</div>
-<div class="card-text listing-description delink">
-Aquaculture plays a crucial role in global food security and is being increasingly used to aid species and ecosystem conservation. However, concerns over environmental…<em></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 15, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bnV0cml0aW9uJTJDYXF1YWN1bHR1cmUlMkNzYWxtb24=" data-listing-date-sort="1749650400000" data-listing-file-modified-sort="1761029060389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
-<a href="./research/zhan-et-al-2025.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/thumbnails/zhan-et-al-2025.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Factors influencing the mineral composition of Atlantic salmon (<em>Salmo salar</em>) for human consumption: insights for nutrition and aquaculture practices
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bnV0cml0aW9u'); return false;">nutrition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YXF1YWN1bHR1cmU='); return false;">aquaculture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2FsbW9u'); return false;">salmon</div>
-
-</div>
-<div class="card-text listing-description delink">
-Atlantic salmon (<em>Salmo salar</em>) is valued for its nutritional benefits, but understanding of its mineral content remains limited. This synthesis compiles data from 107 studies…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jun 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1688565600000" data-listing-file-modified-sort="1761029060382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+<div class="g-col-1" data-index="5" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1688565600000" data-listing-file-modified-sort="1761456792432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
 <a href="./research/johne-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -436,25 +430,48 @@ Modeling the effects of ration on individual growth of <em>Oncorhynchus tshawyts
 <div class="card-text listing-description delink">
 Fed aquaculture is one of the fastest-growing and most valuable food production industries in the world. The efficiency with which farmed fish convert feed into biomass…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 6, 2023
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1687701600000" data-listing-file-modified-sort="1761029060375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="key-publications-from-our-team-members-partners-and-collaborators" class="level1 text-center">
+<h1 class="text-center">Key publications from our team members, partners and collaborators</h1>
+<div id="listing-all-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-all-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-all-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1687701600000" data-listing-file-modified-sort="1761029060375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <a href="./research/cao-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/thumbnails/cao-et-al-2023.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="key-publications-from-our-team-members-partners-and-collaborators">
 Vulnerability of blue foods to human-induced environmental change
 </h5>
 <div class="listing-categories">
@@ -467,18 +484,15 @@ Vulnerability of blue foods to human-induced environmental change
 <div class="card-text listing-description delink">
 Global aquatic or ‘blue’ foods, essential to over 3.2 billion people, face challenges of maintaining supply in a changing environment while adhering to safety and…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jun 26, 2023
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ1NER3M=" data-listing-date-sort="1683640800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
+<div class="g-col-1" data-index="1" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ1NER3M=" data-listing-date-sort="1683640800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
 <a href="./research/troell-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -502,18 +516,15 @@ Perspectives on aquaculture’s contribution to the Sustainable Development Goal
 <div class="card-text listing-description delink">
 The diverse aquaculture sector makes important contributions toward achieving the Sustainable Development Goals (SDGs)/Agenda 2030, and can increasingly do so in the future.…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-May 10, 2023
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<div class="g-col-1" data-index="2" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
 <a href="./research/kuempel-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -535,18 +546,15 @@ Environmental footprints of farmed chicken and salmon bridge the land and sea
 <div class="card-text listing-description delink">
 Food production, particularly of fed animals, is a leading cause of environmental degradation globally.1,2 Understanding where and how much environmental pressure different…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Mar 13, 2023
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1674651600000" data-listing-file-modified-sort="1761029060387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<div class="g-col-1" data-index="3" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1674651600000" data-listing-file-modified-sort="1761029060387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <a href="./research/spillias-et-al-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -568,19 +576,16 @@ Reducing global land-use pressures with seaweed farming
 <div class="card-text listing-description delink">
 Agricultural expansion to meet humanity’s growing needs for food and materials is a leading driver of land-use change, exacerbating climate change and biodiversity loss.…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jan 26, 2023
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cw==" data-listing-date-sort="1666530000000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<a href="./research/halpern-et-al2022.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cw==" data-listing-date-sort="1666530000000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<a href="./research/halpern-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/thumbnails/halpern-et-al-2022.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -601,18 +606,15 @@ The environmental footprint of global food production
 <div class="card-text listing-description delink">
 Feeding humanity puts enormous environmental pressure on our planet. These pressures are unequally distributed, yet we have piecemeal knowledge of how they accumulate across…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 24, 2022
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHM=" data-listing-date-sort="1666270800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="g-col-1" data-index="5" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZW52aXJvbm1lbnRhbCUyMGltcGFjdHM=" data-listing-date-sort="1666270800000" data-listing-file-modified-sort="1761029060388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="./research/tittensor-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -632,18 +634,15 @@ Next-generation ensemble projections reveal higher climate risks for marine ecos
 <div class="card-text listing-description delink">
 Projections of climate change impacts on marine ecosystems have revealed long-term declines in global marine animal biomass and unevenly distributed impacts on fisheries.…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 21, 2022
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1664028000000" data-listing-file-modified-sort="1761029060386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="g-col-1" data-index="6" data-categories="Zm9vZCUyMHN5c3RlbXMlMkNzZWF3ZWVkJTIwZmFybWluZw==" data-listing-date-sort="1664028000000" data-listing-file-modified-sort="1761029060386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <a href="./research/spillias-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -663,18 +662,15 @@ Expert perceptions of seaweed farming for sustainable development
 <div class="card-text listing-description delink">
 Large-scale seaweed aquaculture in the ocean is being pursued globally as a solution to many contemporary challenges, including climate change, food security, and ecosystem…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Sep 25, 2022
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZQ==" data-listing-date-sort="1652536800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="g-col-1" data-index="7" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZQ==" data-listing-date-sort="1652536800000" data-listing-file-modified-sort="1761029060376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <a href="./research/clawson-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -696,18 +692,15 @@ Mapping the spatial distribution of global mariculture production
 <div class="card-text listing-description delink">
 Mariculture (marine and brackish water aquaculture) has grown rapidly over the past 20 years, yet publicly-available information on the location of mariculture production is…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-May 15, 2022
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1640955600000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="g-col-1" data-index="8" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJl" data-listing-date-sort="1640955600000" data-listing-file-modified-sort="1761029060379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <a href="./research/cottrell-et-al-2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -727,18 +720,15 @@ Feeding fish with fumes
 <div class="card-text listing-description delink">
 Industrial greenhouse gas emissions and human food production are major drivers of global environmental change. A key source of the environmental impact of our food systems…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jan 1, 2022
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1614690000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="g-col-1" data-index="9" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1614690000000" data-listing-file-modified-sort="1761029060384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
 <a href="./research/love-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -760,18 +750,15 @@ Emerging COVID-19 impacts, responses, and lessons for building resilience in the
 <div class="card-text listing-description delink">
 The COVID-19 pandemic and subsequent lockdowns are creating health and economic crises that threaten food and nutrition security. The seafood sector provides important…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Mar 3, 2021
+2021
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ3BvbGljeQ==" data-listing-date-sort="1612702800000" data-listing-file-modified-sort="1761029060378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+<div class="g-col-1" data-index="10" data-categories="YXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ3BvbGljeQ==" data-listing-date-sort="1612702800000" data-listing-file-modified-sort="1761029060378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
 <a href="./research/cottrell-et-al-2021.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -791,18 +778,15 @@ Time to rethink trophic levels in aquaculture policy
 <div class="card-text listing-description delink">
 Aquaculture policy often promotes production of low-trophic level species for sustainable industry growth. Yet, the application of the trophic level concept to aquaculture…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Feb 8, 2021
+2021
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ0xDQQ==" data-listing-date-sort="1595512800000" data-listing-file-modified-sort="1761029060383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="g-col-1" data-index="11" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNmb29kJTIwc3lzdGVtcyUyQ0xDQQ==" data-listing-date-sort="1595512800000" data-listing-file-modified-sort="1761029060383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
 <a href="./research/kuempel-et-al-2020.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -824,18 +808,15 @@ Integrating Life Cycle and Impact Assessments to Map Food’s Cumulative Environ
 <div class="card-text listing-description delink">
 Feeding a growing, increasingly affluent population while limiting environmental pressures of food production is a central challenge for society. Understanding the location…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 24, 2020
+2020
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDYXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1589810400000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="12" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDYXF1YWZlZWQlMjBkZXZlbG9wbWVudCUyQ2FxdWFjdWx0dXJlJTJDZmlzaGVyaWVz" data-listing-date-sort="1589810400000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="./research/cottrell-et-al-2020.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -859,18 +840,15 @@ Global adoption of novel aquaculture feeds could substantially reduce forage fis
 <div class="card-text listing-description delink">
 With the global supply of forage fish at a plateau, fed aquaculture must continue to reduce dependence on fishmeal and oil in feeds to ensure sustainable sector growth. The…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-May 19, 2020
+2020
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="Zm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1568037600000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="g-col-1" data-index="13" data-categories="Zm9vZCUyMHN5c3RlbXM=" data-listing-date-sort="1568037600000" data-listing-file-modified-sort="1761029060381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
 <a href="./research/halpern-et-al-2019.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -888,18 +866,15 @@ Putting all foods on the same table: Achieving sustainable food systems requires
 <div class="card-text listing-description delink">
 Improving global food systems is essential to addressing climate change, mitigating biodiversity loss, and meeting both sustainability and human development goals.…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Sep 10, 2019
+2019
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDYWdyaWN1bHR1cmU=" data-listing-date-sort="1503324000000" data-listing-file-modified-sort="1761029060374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<div class="g-col-1" data-index="14" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNlbnZpcm9ubWVudGFsJTIwaW1wYWN0cyUyQ2FxdWFjdWx0dXJlJTJDYWdyaWN1bHR1cmU=" data-listing-date-sort="1503324000000" data-listing-file-modified-sort="1761029060374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <a href="./research/blanchard-et-al-2017.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -925,22 +900,19 @@ Linked sustainability challenges and trade-offs among fisheries, aquaculture and
 <div class="card-text listing-description delink">
 Fisheries and aquaculture make a crucial contribution to global food security, nutrition and livelihoods. However, the UN Sustainable Development Goals separate marine and…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Aug 22, 2017
+2017
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNnbG9iYWwlMjBjaGFuZ2UlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1503237600000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="g-col-1" data-index="15" data-categories="ZW52aXJvbm1lbnRhbCUyMGltcGFjdHMlMkNnbG9iYWwlMjBjaGFuZ2UlMkNiaW9kaXZlcnNpdHk=" data-listing-date-sort="1503237600000" data-listing-file-modified-sort="1761029060377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <a href="./research/cottrell-et-al-2017.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./research/thumbnails/cottrell-et-al-2017.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./research/thumbnails/cottrell-et-al-2017.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -958,22 +930,19 @@ Considering land–sea interactions and trade-offs for food and biodiversity
 <div class="card-text listing-description delink">
 With the human population expected to near 10 billion by 2050, and diets shifting towards greater per-capita consumption of animal protein, meeting future food demands will…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Aug 21, 2017
+2017
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2Zpc2hlcmllcyUyQ2NsaW1hdGUlMjBjaGFuZ2U=" data-listing-date-sort="1349787600000" data-listing-file-modified-sort="1761029060385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="g-col-1" data-index="16" data-categories="Z2xvYmFsJTIwY2hhbmdlJTJDZm9vZCUyMHN5c3RlbXMlMkNhcXVhY3VsdHVyZSUyQ2Zpc2hlcmllcyUyQ2NsaW1hdGUlMjBjaGFuZ2U=" data-listing-date-sort="1349787600000" data-listing-file-modified-sort="1761029060385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <a href="./research/merino-et-al-2012.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./research/thumbnails/merino-et-al-2012.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./research/thumbnails/merino-et-al-2012.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -995,12 +964,9 @@ Can marine fisheries and aquaculture meet fish demand from a growing human popul
 <div class="card-text listing-description delink">
 Expansion in the world’s human population and economic development will increase future demand for fish products. As global fisheries yield is constrained by ecosystems…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 10, 2012
+2012
 </div>
 </div>
 </div>
@@ -1008,9 +974,6 @@ Oct 10, 2012
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="all-listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 
 
